@@ -60,7 +60,7 @@ June 11, 2019.
 <br/>
 <center>
     <div style="width:70%;">
-    <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?d=200oA3lQralEswP0erwgH0BFEqTwC3nWky-HuBb_lkc&cl=ffffff&w=a"></script>
+    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=200oA3lQralEswP0erwgH0BFEqTwC3nWky-HuBb_lkc&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
     </div>
   <!-- /a -->
 </center>
