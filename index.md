@@ -1,5 +1,5 @@
 ## Profile
-<img align="right"> <img width="5" src="shuai.jpg"/>
+<img align="right" img width="160" src="shuai.jpg"/>
 
 I am a second-year Ph.D. student of [Network Architecture, System and Protocols (NASP)](https://nasp.cs.tsinghua.edu.cn/) Research Group in the Department of Computer Science and Technology in Tsinghua University, under the supervision of [A/Prof. Dan Li](https://nasp.cs.tsinghua.edu.cn/lidan.html).
 
