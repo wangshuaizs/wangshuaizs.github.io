@@ -47,14 +47,14 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 ## Honors & Awards
 
-- 08/2018     APNet Student Travel Grant
-- 06/2017     Outstanding Graduate in BJTU
-- 10/2016     National Scholarship
-- 10/2014     National Scholarship
+- 08/2018&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; APNet Student Travel Grant
+- 06/2017&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Outstanding Graduate in BJTU
+- 10/2016&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; National Scholarship
+- 10/2014&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; National Scholarship
 
 
 ## Last updated
-June 10, 2019.
+June 11, 2019.
 
 
 <br/>
