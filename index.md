@@ -41,6 +41,7 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 <br/>
 <center>
-    <a href="https://clustrmaps.com/site/1aron"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=200oA3lQralEswP0erwgH0BFEqTwC3nWky-HuBb_lkc&cl=ffffff" /></a>
+    <div style="height:500px; width:600px; border:1px solid black;">
+    <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?d=200oA3lQralEswP0erwgH0BFEqTwC3nWky-HuBb_lkc&cl=ffffff&w=a"></script>
   <!-- /a -->
 </center>
