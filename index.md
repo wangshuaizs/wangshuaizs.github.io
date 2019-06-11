@@ -7,7 +7,7 @@ E-mail: s-wang17 [AT] mails.tsinghua.edu.cn
 
 Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
-[Google Scholar](https:)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[Google Scholar](https://scholar.google.com/citations?hl=en&user=Yo0BTHMAAAAJ)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [GitHub](https://github.com/wangshuaizs)
 
 
