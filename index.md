@@ -1,6 +1,13 @@
 ## Profile
 
-![Shuai Wang][photobase64str]
+<br/>
+<center>
+    <div style="width:40%;">
+    ![Shuai Wang][photobase64str]
+    </div>
+  <!-- /a -->
+</center>
+
 
 I am a second-year Ph.D. student of [Network Architecture, System and Protocols (NASP)](https://nasp.cs.tsinghua.edu.cn/) Research Group in the Department of Computer Science and Technology in Tsinghua University, under the supervision of [A/Prof. Dan Li](https://nasp.cs.tsinghua.edu.cn/lidan.html).
 
