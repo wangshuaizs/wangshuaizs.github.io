@@ -1,12 +1,18 @@
 ## Profile
 
-I am a second-year Ph.D. student of [Network Architecture, System and Protocols (NASP)](https://nasp.cs.tsinghua.edu.cn/) Research Group in the Department of Computer Science and Technology in Tsinghua University, under the supervision of [A/Prof. Dan Li](https://nasp.cs.tsinghua.edu.cn/lidan.html).
+![Shuai Wang](https://cloud.tsinghua.edu.cn/f/140b6f72f8d142fda43f/)
 
-My **research interests** include Data Center Networking, Distributed Machine Learning System and Resource Management, etc.
+I am a second-year Ph.D. student of [Network Architecture, System and Protocols (NASP)](https://nasp.cs.tsinghua.edu.cn/) Research Group in the Department of Computer Science and Technology in Tsinghua University, under the supervision of [A/Prof. Dan Li](https://nasp.cs.tsinghua.edu.cn/lidan.html).
 
 E-mail: s-wang17 [AT] mails.tsinghua.edu.cn
 
 Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
+
+
+## Research Interests
+- Data Center Networking
+- Distributed Machine Learning System
+- Resource Management
 
 
 ## Education
