@@ -31,9 +31,9 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 - [[**INFOCOM'19**](https://infocom2019.ieee-infocom.org/)] **Shuai Wang**, Dan Li, Jinkun Geng, Yue Gu, Yang Cheng. [Impact of Network Topology on the Performance of DML: Theoretical Analysis and Practical Factors](https://cloud.tsinghua.edu.cn/f/a7a46b3b32e9460b9e82/?dl=1). In proceedings of IEEE INFOCOM, Paris, 2019.
 
-- [[**NeurIPS'18**](https://nips.cc/Conferences/2018)] Songtao Wang, Dan Li, Yang Cheng, Jinkun Geng, Yanshu Wang, **Shuai Wang**, Shutao Xia, Jianping Wu. [BML: A High-performance, Low-cost Gradient Synchronization Algorithm for DML Training](https://cloud.tsinghua.edu.cn/f/534ace22e81740c8b685/?dl=1). In proceedings of NeurIPS, Montreal, 2018.
-
 - [[**ICDE'19**](http://conferences.cis.umac.mo/icde2019/)] Jinkun Geng, Dan Li, **Shuai Wang**. [Rima: An RDMA-Accelerated Model-Parallelized Solution to Large-Scale Matrix Factorization](https://cloud.tsinghua.edu.cn/f/2745e3b11fac4019a532/?dl=1). In proceedings of IEEE ICDE, Macau SAR, 2019.
+
+- [[**NeurIPS'18**](https://nips.cc/Conferences/2018)] Songtao Wang, Dan Li, Yang Cheng, Jinkun Geng, Yanshu Wang, **Shuai Wang**, Shutao Xia, Jianping Wu. [BML: A High-performance, Low-cost Gradient Synchronization Algorithm for DML Training](https://cloud.tsinghua.edu.cn/f/534ace22e81740c8b685/?dl=1). In proceedings of NeurIPS, Montreal, 2018.
 
 - [[**APNet'18**](https://conferences.sigcomm.org/events/apnet2018/index.html)] Yanshu Wang, Tianfeng Liu, **Shuai Wang**, Kaihui Gao, Liwei Jiang, Dan Li. [Onelearn: A Unified and Distributed Machine Learning Platform with High Performance](https://cloud.tsinghua.edu.cn/f/fe8544cca3e24a33b465/?dl=1). In proceedings of ACM SIGCOMM, APNet Workshop (poster), Beijing, 2018.
 
