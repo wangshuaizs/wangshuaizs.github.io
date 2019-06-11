@@ -1,5 +1,3 @@
-
-
 ## Profile
 <img align="right" img width="160" src="shuai.jpg"/>
 
@@ -21,10 +19,10 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 ## Education
 
-1. **Ph.D. candidate** in the Department of Computer Science and Technology
+- **Ph.D. candidate** in the Department of Computer Science and Technology
     - 2017.09 – present
     - Tsinghua University (THU)
-2. **B.Eng.** in the School of Electronic and Information Engineering
+- **B.Eng.** in the School of Electronic and Information Engineering
     - 2013.09 – 2017.06
     - Beijing JiaoTong University (BJTU)
 
