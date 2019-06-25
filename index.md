@@ -29,13 +29,19 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 ## Publications
 
+- [[**APNet'19**](https://conferences.sigcomm.org/events/apnet2019/index.html)] Jinkun Geng, Dan Li, **Shuai Wang**. [Accelerating Distributed Machine Learning by Smart Parameter Server](https://cloud.tsinghua.edu.cn/f/6501e02e49314ca7b09e/?dl=1). In APNet Workshop, Beijing, 2019.
+
+- [[**ScienceCloud'19**]](https://sites.google.com/view/sciencecloud2019) Jinkun Geng, Dan Li, **Shuai Wang**. [ElasticPipe: An Efficient and Dynamic Model-Parallel Solution to DNN Training](https://cloud.tsinghua.edu.cn/f/76fc7fb44cac47209f1f/?dl=1). In proceedings of ACM HPDC, ScienceCloud Workshop, Phoenix, 2019.
+
+- [[**CCIW'19**]](https://cciw.github.io/) Jinkun Geng, Dan Li, **Shuai Wang**. [Horizontal or Vertical? A Hybrid Approach to Large-Scale Distributed Machine Learning](https://cloud.tsinghua.edu.cn/f/dbb5716065a542d6bc51/?dl=1). In proceedings of ACM HPDC, CCIW Workshop, Phoenix, 2019.
+
 - [[**INFOCOM'19**](https://infocom2019.ieee-infocom.org/)] **Shuai Wang**, Dan Li, Jinkun Geng, Yue Gu, Yang Cheng. [Impact of Network Topology on the Performance of DML: Theoretical Analysis and Practical Factors](https://cloud.tsinghua.edu.cn/f/a7a46b3b32e9460b9e82/?dl=1). In proceedings of IEEE INFOCOM, Paris, 2019.
 
 - [[**ICDE'19**](http://conferences.cis.umac.mo/icde2019/)] Jinkun Geng, Dan Li, **Shuai Wang**. [Rima: An RDMA-Accelerated Model-Parallelized Solution to Large-Scale Matrix Factorization](https://cloud.tsinghua.edu.cn/f/2745e3b11fac4019a532/?dl=1). In proceedings of IEEE ICDE, Macau SAR, 2019.
 
 - [[**NeurIPS'18**](https://nips.cc/Conferences/2018)] Songtao Wang, Dan Li, Yang Cheng, Jinkun Geng, Yanshu Wang, **Shuai Wang**, Shutao Xia, Jianping Wu. [BML: A High-performance, Low-cost Gradient Synchronization Algorithm for DML Training](https://cloud.tsinghua.edu.cn/f/534ace22e81740c8b685/?dl=1). In proceedings of NeurIPS, Montreal, 2018.
 
-- [[**APNet'18**](https://conferences.sigcomm.org/events/apnet2018/index.html)] Yanshu Wang, Tianfeng Liu, **Shuai Wang**, Kaihui Gao, Liwei Jiang, Dan Li. [Onelearn: A Unified and Distributed Machine Learning Platform with High Performance](https://cloud.tsinghua.edu.cn/f/fe8544cca3e24a33b465/?dl=1). In proceedings of ACM SIGCOMM, APNet Workshop (poster), Beijing, 2018.
+- [[**APNet'18**](https://conferences.sigcomm.org/events/apnet2018/index.html)] Yanshu Wang, Tianfeng Liu, **Shuai Wang**, Kaihui Gao, Liwei Jiang, Dan Li. [Onelearn: A Unified and Distributed Machine Learning Platform with High Performance](https://cloud.tsinghua.edu.cn/f/fe8544cca3e24a33b465/?dl=1). In APNet Workshop, Beijing, 2018.
 
 - [[**NetAI'18**](https://conferences.sigcomm.org/sigcomm/2018/workshop-netaim.html)] Jinkun Geng, Dan Li, Yang Cheng, **Shuai Wang**, Junfeng Li. [HiPS: Hierarchical Parameter Synchronization in Large-Scale Distributed Machine Learning](https://cloud.tsinghua.edu.cn/f/ec37893420db4af1a3c7/?dl=1). In proceedings of ACM SIGCOMM, NetAI Workshop, Budapest, 2018.
 
@@ -54,7 +60,7 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 
 ## Last updated
-June 11, 2019.
+June 25, 2019.
 
 
 <br/>
