@@ -29,6 +29,8 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 ## Publications
 
+- [[**ICDE'20**](https://www.utdallas.edu/icde/)] Jinkun Geng, Dan Li, **Shuai Wang**. [Fela: Incorporating Flexible Parallelism and Elastic Tuning to Accelerate Large-Scale DML](https://wangshuaizs.github.io/). In proceedings of IEEE ICDE, Dallas, 2020. To appear.
+
 - [[**INFOCOM'20**](https://infocom2020.ieee-infocom.org/)] **Shuai Wang**, Dan Li, Jinkun Geng. [Geryon: Accelerating Distributed CNN Training by Network-Level Flow Scheduling](https://wangshuaizs.github.io/). In proceedings of IEEE INFOCOM, Beijing, 2020. To appear.
 
 - [[**APNet'19**](https://conferences.sigcomm.org/events/apnet2019/index.html)] Jinkun Geng, Dan Li, **Shuai Wang**. [Accelerating Distributed Machine Learning by Smart Parameter Server](https://cloud.tsinghua.edu.cn/f/6501e02e49314ca7b09e/?dl=1). In APNet Workshop, Beijing, 2019.
@@ -63,7 +65,7 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 
 ## Last updated
-December 06, 2019.
+February 22, 2020.
 
 
 <br/>
