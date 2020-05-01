@@ -29,17 +29,19 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 ## Publications
 
-- [[**ICDE'20**](https://www.utdallas.edu/icde/)] Jinkun Geng, Dan Li, **Shuai Wang**. [Fela: Incorporating Flexible Parallelism and Elastic Tuning to Accelerate Large-Scale DML](https://wangshuaizs.github.io/). In proceedings of IEEE ICDE, Dallas, 2020. To appear.
-
 - [[**INFOCOM'20**](https://infocom2020.ieee-infocom.org/)] **Shuai Wang**, Dan Li, Jinkun Geng. [Geryon: Accelerating Distributed CNN Training by Network-Level Flow Scheduling](https://wangshuaizs.github.io/). In proceedings of IEEE INFOCOM, Beijing, 2020. To appear.
+
+- [[**INFOCOM'19**](https://infocom2019.ieee-infocom.org/)] **Shuai Wang**, Dan Li, Jinkun Geng, Yue Gu, Yang Cheng. [Impact of Network Topology on the Performance of DML: Theoretical Analysis and Practical Factors](https://cloud.tsinghua.edu.cn/f/a7a46b3b32e9460b9e82/?dl=1). In proceedings of IEEE INFOCOM, Paris, 2019.
+
+- [[**ToN**](https://nips.cc/Conferences/2018)] Songtao Wang, Dan Li, Yang Cheng, Jinkun Geng, Yanshu Wang, **Shuai Wang**, Shutao Xia, Jianping Wu. [BML: A Scalable, High-performance and Fault-tolerant Network Architecture for Distributed Machine Learning](https://wangshuaizs.github.io/). In IEEE/ACM Transactions on Networking, 2020.
+
+- [[**ICDE'20**](https://www.utdallas.edu/icde/)] Jinkun Geng, Dan Li, **Shuai Wang**. [Fela: Incorporating Flexible Parallelism and Elastic Tuning to Accelerate Large-Scale DML](https://wangshuaizs.github.io/). In proceedings of IEEE ICDE, Dallas, 2020. To appear.
 
 - [[**APNet'19**](https://conferences.sigcomm.org/events/apnet2019/index.html)] Jinkun Geng, Dan Li, **Shuai Wang**. [Accelerating Distributed Machine Learning by Smart Parameter Server](https://cloud.tsinghua.edu.cn/f/6501e02e49314ca7b09e/?dl=1). In APNet Workshop, Beijing, 2019.
 
 - [[**ScienceCloud'19**]](https://sites.google.com/view/sciencecloud2019) Jinkun Geng, Dan Li, **Shuai Wang**. [ElasticPipe: An Efficient and Dynamic Model-Parallel Solution to DNN Training](https://cloud.tsinghua.edu.cn/f/76fc7fb44cac47209f1f/?dl=1). In proceedings of ACM HPDC, ScienceCloud Workshop, Phoenix, 2019.
 
 - [[**CCIW'19**]](https://cciw.github.io/) Jinkun Geng, Dan Li, **Shuai Wang**. [Horizontal or Vertical? A Hybrid Approach to Large-Scale Distributed Machine Learning](https://cloud.tsinghua.edu.cn/f/dbb5716065a542d6bc51/?dl=1). In proceedings of ACM HPDC, CCIW Workshop, Phoenix, 2019.
-
-- [[**INFOCOM'19**](https://infocom2019.ieee-infocom.org/)] **Shuai Wang**, Dan Li, Jinkun Geng, Yue Gu, Yang Cheng. [Impact of Network Topology on the Performance of DML: Theoretical Analysis and Practical Factors](https://cloud.tsinghua.edu.cn/f/a7a46b3b32e9460b9e82/?dl=1). In proceedings of IEEE INFOCOM, Paris, 2019.
 
 - [[**ICDE'19**](http://conferences.cis.umac.mo/icde2019/)] Jinkun Geng, Dan Li, **Shuai Wang**. [Rima: An RDMA-Accelerated Model-Parallelized Solution to Large-Scale Matrix Factorization](https://cloud.tsinghua.edu.cn/f/2745e3b11fac4019a532/?dl=1). In proceedings of IEEE ICDE, Macau SAR, 2019.
 
