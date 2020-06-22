@@ -32,7 +32,7 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 - [[**INFOCOM'19**](https://infocom2019.ieee-infocom.org/)] **Shuai Wang**, Dan Li, Jinkun Geng, Yue Gu, Yang Cheng. [Impact of Network Topology on the Performance of DML: Theoretical Analysis and Practical Factors](https://cloud.tsinghua.edu.cn/f/a7a46b3b32e9460b9e82/?dl=1). In proceedings of IEEE INFOCOM, Paris, 2019.
 
-- [[**ToN**](https://nips.cc/Conferences/2018)] Songtao Wang, Dan Li, Yang Cheng, Jinkun Geng, Yanshu Wang, **Shuai Wang**, Shutao Xia, Jianping Wu. [BML: A Scalable, High-performance and Fault-tolerant Network Architecture for Distributed Machine Learning](https://wangshuaizs.github.io/). In IEEE/ACM Transactions on Networking, 2020.
+- [[**ToN**](https://nips.cc/Conferences/2018)] Songtao Wang, Dan Li, Yang Cheng, Jinkun Geng, Yanshu Wang, **Shuai Wang**, Shutao Xia, Jianping Wu. [BML: A Scalable, High-performance and Fault-tolerant Network Architecture for Distributed Machine Learning](https://cloud.tsinghua.edu.cn/f/279a13677c504fbaab0d/?dl=1). In IEEE/ACM Transactions on Networking, 2020.
 
 - [[**ICDE'20**](https://www.utdallas.edu/icde/)] Jinkun Geng, Dan Li, **Shuai Wang**. [Fela: Incorporating Flexible Parallelism and Elastic Tuning to Accelerate Large-Scale DML](https://cloud.tsinghua.edu.cn/f/aa3411a84af647e2b1ea/?dl=1). In proceedings of IEEE ICDE, Dallas, 2020.
 
@@ -66,4 +66,4 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 
 ## Last updated
-June 08, 2020.
+June 22, 2020.
