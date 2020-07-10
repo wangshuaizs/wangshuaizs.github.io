@@ -28,7 +28,7 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 ## Publications
 
-- [[**INFOCOM'20**](https://infocom2020.ieee-infocom.org/)] **Shuai Wang**, Dan Li, Jinkun Geng. [Geryon: Accelerating Distributed CNN Training by Network-Level Flow Scheduling](https://wangshuaizs.github.io/). In proceedings of IEEE INFOCOM, Beijing, 2020. To appear.
+- [[**INFOCOM'20**](https://infocom2020.ieee-infocom.org/)] **Shuai Wang**, Dan Li, Jinkun Geng. [Geryon: Accelerating Distributed CNN Training by Network-Level Flow Scheduling](https://wangshuaizs.github.io/). In proceedings of IEEE INFOCOM, virtual conference, 2020.
 
 - [[**INFOCOM'19**](https://infocom2019.ieee-infocom.org/)] **Shuai Wang**, Dan Li, Jinkun Geng, Yue Gu, Yang Cheng. [Impact of Network Topology on the Performance of DML: Theoretical Analysis and Practical Factors](https://cloud.tsinghua.edu.cn/f/a7a46b3b32e9460b9e82/?dl=1). In proceedings of IEEE INFOCOM, Paris, 2019.
 
@@ -53,7 +53,8 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 ## Talks
 
-- [Impact of Network Topology on the Performance of DML: Theoretical Analysis and Practical Factors](https://cloud.tsinghua.edu.cn/f/3e320b43d5af4e0fb59d/?dl=1). IEEE INFOCOM 2019.
+- Impact of Network Topology on the Performance of DML: Theoretical Analysis and Practical Factors. [[Slides]](https://cloud.tsinghua.edu.cn/f/3e320b43d5af4e0fb59d/?dl=1). IEEE INFOCOM 2019.
+- Geryon: Accelerating Distributed CNN Training by Network-Level Flow Scheduling. [[Slides]](https://cloud.tsinghua.edu.cn/f/00808f4971ae4d1397fe/?dl=1),[[Video]](https://cloud.tsinghua.edu.cn/f/4041fa5475794dfaab2e/?dl=1). IEEE INFOCOM 2020.
 
 
 ## Honors & Awards
@@ -66,4 +67,4 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 
 ## Last updated
-June 22, 2020.
+July 10, 2020.
