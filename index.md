@@ -53,8 +53,8 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 ## Talks
 
-- Impact of Network Topology on the Performance of DML: Theoretical Analysis and Practical Factors. [[Slides]](https://cloud.tsinghua.edu.cn/f/798859b62048499e8043/). IEEE INFOCOM 2019.
 - Geryon: Accelerating Distributed CNN Training by Network-Level Flow Scheduling. [[Slides]](https://cloud.tsinghua.edu.cn/f/505be942366346bd84f6/),[[Video]](https://cloud.tsinghua.edu.cn/f/41f57aed61a84bec8ede/). IEEE INFOCOM 2020.
+- Impact of Network Topology on the Performance of DML: Theoretical Analysis and Practical Factors. [[Slides]](https://cloud.tsinghua.edu.cn/f/798859b62048499e8043/). IEEE INFOCOM 2019.
 
 
 ## Honors & Awards
