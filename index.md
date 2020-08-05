@@ -1,7 +1,7 @@
 ## Profile
 <img align="right" img width="160" src="shuai.jpg"/>
 
-I am currently a third-year Ph.D. student (since 2017) of [Network Architecture, System and Protocols (NASP)](https://nasp.cs.tsinghua.edu.cn/) Research Group in the Department of Computer Science and Technology in Tsinghua University, under the supervision of [A/Prof. Dan Li](https://nasp.cs.tsinghua.edu.cn/lidan.html).
+I am currently a third-year Ph.D. student (since 2017) of [Network Architecture, System and Protocols (NASP)](https://nasp.cs.tsinghua.edu.cn/) Research Group in the Department of Computer Science and Technology in Tsinghua University, under the supervision of [Prof. Dan Li](https://nasp.cs.tsinghua.edu.cn/lidan.html).
 
 E-mail: s-wang17 [AT] mails.tsinghua.edu.cn
 
@@ -72,4 +72,4 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 
 ## Last updated
-July 10, 2020.
+August 05, 2020.
