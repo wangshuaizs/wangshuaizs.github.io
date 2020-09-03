@@ -28,7 +28,7 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 ## Publications
 
-- [[**INFOCOM'20**](https://infocom2020.ieee-infocom.org/)] **Shuai Wang**, Dan Li, Jinkun Geng. [Geryon: Accelerating Distributed CNN Training by Network-Level Flow Scheduling](https://wangshuaizs.github.io/). In proceedings of IEEE INFOCOM, virtual conference, 2020.
+- [[**INFOCOM'20**](https://infocom2020.ieee-infocom.org/)] **Shuai Wang**, Dan Li, Jinkun Geng. [Geryon: Accelerating Distributed CNN Training by Network-Level Flow Scheduling](https://cloud.tsinghua.edu.cn/f/3df19579df2340dfb2ab/?dl=1). In proceedings of IEEE INFOCOM, Virtual Conference, 2020.
 
 - [[**INFOCOM'19**](https://infocom2019.ieee-infocom.org/)] **Shuai Wang**, Dan Li, Jinkun Geng, Yue Gu, Yang Cheng. [Impact of Network Topology on the Performance of DML: Theoretical Analysis and Practical Factors](https://cloud.tsinghua.edu.cn/f/a7a46b3b32e9460b9e82/?dl=1). In proceedings of IEEE INFOCOM, Paris, 2019.
 
@@ -72,4 +72,6 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 
 ## Last updated
-August 20, 2020.
+September 03, 2020.
+
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=200oA3lQralEswP0erwgH0BFEqTwC3nWky-HuBb_lkc&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
