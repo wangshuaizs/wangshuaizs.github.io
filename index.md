@@ -26,7 +26,9 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
     - Beijing Jiaotong University (BJTU)
 
 
-## Publications
+## Selected Publications
+
+- [[**CoNEXT'20**](https://conferences.sigcomm.org/co-next/2020/#!/home)] **Shuai Wang**, Dan Li, Jiansong Zhang, Wei Lin. [CEFS: Compute-Efficient Flow Scheduling for Iterative Synchronous Applications](https://wangshuaizs.github.io/). In proceedings of ACM CoNEXT, Virtual Conference, 2020.
 
 - [[**INFOCOM'20**](https://infocom2020.ieee-infocom.org/)] **Shuai Wang**, Dan Li, Jinkun Geng. [Geryon: Accelerating Distributed CNN Training by Network-Level Flow Scheduling](https://cloud.tsinghua.edu.cn/f/3df19579df2340dfb2ab/?dl=1). In proceedings of IEEE INFOCOM, Virtual Conference, 2020.
 
@@ -36,17 +38,11 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 - [[**ICDE'20**](https://www.utdallas.edu/icde/)] Jinkun Geng, Dan Li, **Shuai Wang**. [Fela: Incorporating Flexible Parallelism and Elastic Tuning to Accelerate Large-Scale DML](https://cloud.tsinghua.edu.cn/f/aa3411a84af647e2b1ea/?dl=1). In proceedings of IEEE ICDE, Dallas, 2020.
 
-- [[**APNet'19**](https://conferences.sigcomm.org/events/apnet2019/index.html)] Jinkun Geng, Dan Li, **Shuai Wang**. [Accelerating Distributed Machine Learning by Smart Parameter Server](https://cloud.tsinghua.edu.cn/f/6501e02e49314ca7b09e/?dl=1). In APNet Workshop, Beijing, 2019.
-
-- [[**ScienceCloud'19**]](https://sites.google.com/view/sciencecloud2019) Jinkun Geng, Dan Li, **Shuai Wang**. [ElasticPipe: An Efficient and Dynamic Model-Parallel Solution to DNN Training](https://cloud.tsinghua.edu.cn/f/76fc7fb44cac47209f1f/?dl=1). In proceedings of ACM HPDC, ScienceCloud Workshop, Phoenix, 2019.
-
-- [[**CCIW'19**]](https://cciw.github.io/) Jinkun Geng, Dan Li, **Shuai Wang**. [Horizontal or Vertical? A Hybrid Approach to Large-Scale Distributed Machine Learning](https://cloud.tsinghua.edu.cn/f/dbb5716065a542d6bc51/?dl=1). In proceedings of ACM HPDC, CCIW Workshop, Phoenix, 2019.
-
 - [[**ICDE'19**](http://conferences.cis.umac.mo/icde2019/)] Jinkun Geng, Dan Li, **Shuai Wang**. [Rima: An RDMA-Accelerated Model-Parallelized Solution to Large-Scale Matrix Factorization](https://cloud.tsinghua.edu.cn/f/2745e3b11fac4019a532/?dl=1). In proceedings of IEEE ICDE, Macau SAR, 2019.
 
 - [[**NeurIPS'18**](https://nips.cc/Conferences/2018)] Songtao Wang, Dan Li, Yang Cheng, Jinkun Geng, Yanshu Wang, **Shuai Wang**, Shutao Xia, Jianping Wu. [BML: A High-performance, Low-cost Gradient Synchronization Algorithm for DML Training](https://cloud.tsinghua.edu.cn/f/534ace22e81740c8b685/?dl=1). In proceedings of NeurIPS, Montreal, 2018.
 
-- [[**APNet'18**](https://conferences.sigcomm.org/events/apnet2018/index.html)] Yanshu Wang, Tianfeng Liu, **Shuai Wang**, Kaihui Gao, Liwei Jiang, Dan Li. [Onelearn: A Unified and Distributed Machine Learning Platform with High Performance](https://cloud.tsinghua.edu.cn/f/fe8544cca3e24a33b465/?dl=1). In APNet Workshop, Beijing, 2018.
+- [[**APNet'19**](https://conferences.sigcomm.org/events/apnet2019/index.html)] Jinkun Geng, Dan Li, **Shuai Wang**. [Accelerating Distributed Machine Learning by Smart Parameter Server](https://cloud.tsinghua.edu.cn/f/6501e02e49314ca7b09e/?dl=1). In APNet Workshop, Beijing, 2019.
 
 - [[**NetAI'18**](https://conferences.sigcomm.org/sigcomm/2018/workshop-netaim.html)] Jinkun Geng, Dan Li, Yang Cheng, **Shuai Wang**, Junfeng Li. [HiPS: Hierarchical Parameter Synchronization in Large-Scale Distributed Machine Learning](https://cloud.tsinghua.edu.cn/f/ec37893420db4af1a3c7/?dl=1). In proceedings of ACM SIGCOMM, NetAI Workshop, Budapest, 2018.
 
@@ -64,14 +60,15 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 ## Honors & Awards
 
-- 10/2019&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Second-class Comprehensive Excellent Scholarship of Tsinghua University
+- 10/2020&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Tang Lixin Scholarship, Tsinghua University
+- 10/2019&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Second-class Comprehensive Excellent Scholarship, Tsinghua University
 - 08/2018&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; APNet Student Travel Grant
-- 06/2017&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Outstanding Graduate in BJTU
-- 10/2016&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; National Scholarship
-- 10/2014&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; National Scholarship
+- 06/2017&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Outstanding Graduate, BJTU
+- 10/2016&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; National Scholarship, BJTU
+- 10/2014&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; National Scholarship, BJTU
 
 
 ## Last updated
-September 03, 2020.
+November 05, 2020.
 
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=200oA3lQralEswP0erwgH0BFEqTwC3nWky-HuBb_lkc&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
