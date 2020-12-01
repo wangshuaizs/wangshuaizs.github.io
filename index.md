@@ -28,7 +28,7 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 ## Selected Publications
 
-- [[**CoNEXT'20**](https://conferences.sigcomm.org/co-next/2020/#!/home)] **Shuai Wang**, Dan Li, Jiansong Zhang, Wei Lin. [CEFS: Compute-Efficient Flow Scheduling for Iterative Synchronous Applications](https://wangshuaizs.github.io/). In proceedings of ACM CoNEXT, Virtual Conference, 2020.
+- [[**CoNEXT'20**](https://conferences.sigcomm.org/co-next/2020/#!/home)] **Shuai Wang**, Dan Li, Jiansong Zhang, Wei Lin. [CEFS: Compute-Efficient Flow Scheduling for Iterative Synchronous Applications](https://cloud.tsinghua.edu.cn/f/c90e5cf281854499866b/?dl=1). In proceedings of ACM CoNEXT, Virtual Conference, 2020.
 
 - [[**INFOCOM'20**](https://infocom2020.ieee-infocom.org/)] **Shuai Wang**, Dan Li, Jinkun Geng. [Geryon: Accelerating Distributed CNN Training by Network-Level Flow Scheduling](https://cloud.tsinghua.edu.cn/f/3df19579df2340dfb2ab/?dl=1). In proceedings of IEEE INFOCOM, Virtual Conference, 2020.
 
@@ -49,6 +49,7 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 ## Talks
 
+- CEFS: Compute-Efficient Flow Scheduling for Iterative Synchronous Applications. [[Slides]](https://cloud.tsinghua.edu.cn/f/4026ae1c56d34e38b552/?dl=1),[[Video]](https://cloud.tsinghua.edu.cn/f/f92e72e847c64fb4b194/?dl=1). ACM CoNEXT 2020.
 - Geryon: Accelerating Distributed CNN Training by Network-Level Flow Scheduling. [[Slides]](https://cloud.tsinghua.edu.cn/f/505be942366346bd84f6/),[[Video]](https://cloud.tsinghua.edu.cn/f/41f57aed61a84bec8ede/). IEEE INFOCOM 2020.
 - Impact of Network Topology on the Performance of DML: Theoretical Analysis and Practical Factors. [[Slides]](https://cloud.tsinghua.edu.cn/f/798859b62048499e8043/). IEEE INFOCOM 2019.
 
@@ -60,6 +61,7 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 ## Honors & Awards
 
+- 11/2020&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CoNEXT Student Travel Grant
 - 10/2020&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Tang Lixin Scholarship, Tsinghua University
 - 10/2019&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Second-class Comprehensive Excellent Scholarship, Tsinghua University
 - 08/2018&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; APNet Student Travel Grant
@@ -69,6 +71,6 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 
 ## Last updated
-November 05, 2020.
+Decmber 01, 2020.
 
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=200oA3lQralEswP0erwgH0BFEqTwC3nWky-HuBb_lkc&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
