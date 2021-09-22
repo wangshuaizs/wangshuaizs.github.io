@@ -28,7 +28,7 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 ## Selected Publications
 
-- [[**CJC'21**](https://cjc.ict.ac.cn/)] **Shuai Wang**, Dan Li. [Research Progress on Network Performance Optimization of Distributed Machine Learning System](https://wangshuaizs.github.io/). In Chinese Journal of Computers  (in Chinese), 2021.
+- [[**CJC'21**](https://cjc.ict.ac.cn/)] **Shuai Wang**, Dan Li. [Research Progress on Network Performance Optimization of Distributed Machine Learning System](https://wangshuaizs.github.io/). In Chinese Journal of Computers (in Chinese), 2021.
 
 - [[**CoNEXT'20**](https://conferences.sigcomm.org/co-next/2020/#!/home)] **Shuai Wang**, Dan Li, Jiansong Zhang, Wei Lin. [CEFS: Compute-Efficient Flow Scheduling for Iterative Synchronous Applications](https://wangshuaizs.github.io/). In proceedings of ACM CoNEXT, Virtual Conference, 2020.
 
