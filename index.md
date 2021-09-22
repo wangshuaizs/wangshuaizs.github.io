@@ -1,7 +1,7 @@
 ## Profile
 <img align="right" img width="160" src="shuai.jpg"/>
 
-I am currently a fourth-year Ph.D. student (since 2017) of [Network Architecture, System and Protocols (NASP)](https://nasp.cs.tsinghua.edu.cn/) Research Group in the Department of Computer Science and Technology in Tsinghua University, under the supervision of [Prof. Dan Li](https://nasp.cs.tsinghua.edu.cn/lidan.html).
+I am currently a fifth-year Ph.D. student (since 2017) of [Network Architecture, System and Protocols (NASP)](https://nasp.cs.tsinghua.edu.cn/) Research Group in the Department of Computer Science and Technology in Tsinghua University, under the supervision of [Prof. Dan Li](https://nasp.cs.tsinghua.edu.cn/lidan.html).
 
 E-mail: s-wang17 [AT] mails.tsinghua.edu.cn
 
@@ -27,6 +27,8 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 
 ## Selected Publications
+
+- [[**CJC'21**](https://cjc.ict.ac.cn/)] **Shuai Wang**, Dan Li. [Research Progress on Network Performance Optimization of Distributed Machine Learning System](https://wangshuaizs.github.io/). In Chinese Journal of Computers  (in Chinese), 2021.
 
 - [[**CoNEXT'20**](https://conferences.sigcomm.org/co-next/2020/#!/home)] **Shuai Wang**, Dan Li, Jiansong Zhang, Wei Lin. [CEFS: Compute-Efficient Flow Scheduling for Iterative Synchronous Applications](https://wangshuaizs.github.io/). In proceedings of ACM CoNEXT, Virtual Conference, 2020.
 
@@ -72,6 +74,6 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 
 ## Last updated
-Decmber 01, 2020.
+September 22, 2021.
 
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=200oA3lQralEswP0erwgH0BFEqTwC3nWky-HuBb_lkc&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
