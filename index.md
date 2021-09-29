@@ -28,7 +28,9 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 ## Selected Publications
 
-- [[**CJC**](https://cjc.ict.ac.cn/)] **Shuai Wang**, Dan Li. [Research Progress on Network Performance Optimization of Distributed Machine Learning System](https://wangshuaizs.github.io/). In Chinese Journal of Computers (in Chinese), 2021.
+- [[**ToN**](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=90)] **Shuai Wang**, Jinkun Geng, Dan Li. [Impact of Synchronization Topology on DML Performance: both Logical Topology and Physical Topology](https://wangshuaizs.github.io/). In IEEE/ACM Transactions on Networking, 2021.
+
+- [[**CJC**](https://cjc.ict.ac.cn/)] **Shuai Wang**, Dan Li. [Research Progress on Network Performance Optimization of Distributed Machine Learning System](https://wangshuaizs.github.io/). In Chinese Journal of Computers (in Chinese: 分布式机器学习系统网络性能优化研究进展), 2021.
 
 - [[**CoNEXT'20**](https://conferences.sigcomm.org/co-next/2020/#!/home)] **Shuai Wang**, Dan Li, Jiansong Zhang, Wei Lin. [CEFS: Compute-Efficient Flow Scheduling for Iterative Synchronous Applications](https://wangshuaizs.github.io/). In proceedings of ACM CoNEXT, Virtual Conference, 2020.
 
@@ -36,7 +38,7 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 - [[**INFOCOM'19**](https://infocom2019.ieee-infocom.org/)] **Shuai Wang**, Dan Li, Jinkun Geng, Yue Gu, Yang Cheng. [Impact of Network Topology on the Performance of DML: Theoretical Analysis and Practical Factors](https://wangshuaizs.github.io/). In proceedings of IEEE INFOCOM, Paris, 2019.
 
-- [[**ToN**](https://nips.cc/Conferences/2018)] Songtao Wang, Dan Li, Yang Cheng, Jinkun Geng, Yanshu Wang, **Shuai Wang**, Shutao Xia, Jianping Wu. [BML: A Scalable, High-performance and Fault-tolerant Network Architecture for Distributed Machine Learning](https://wangshuaizs.github.io/). In IEEE/ACM Transactions on Networking, 2020.
+- [[**ToN**](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=90] Songtao Wang, Dan Li, Yang Cheng, Jinkun Geng, Yanshu Wang, **Shuai Wang**, Shutao Xia, Jianping Wu. [BML: A Scalable, High-performance and Fault-tolerant Network Architecture for Distributed Machine Learning](https://wangshuaizs.github.io/). In IEEE/ACM Transactions on Networking, 2020.
 
 - [[**ICDE'20**](https://www.utdallas.edu/icde/)] Jinkun Geng, Dan Li, **Shuai Wang**. [Fela: Incorporating Flexible Parallelism and Elastic Tuning to Accelerate Large-Scale DML](https://wangshuaizs.github.io/). In proceedings of IEEE ICDE, Dallas, 2020.
 
@@ -74,6 +76,6 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 
 ## Last updated
-September 22, 2021.
+September 29, 2021.
 
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=200oA3lQralEswP0erwgH0BFEqTwC3nWky-HuBb_lkc&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
