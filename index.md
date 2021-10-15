@@ -66,16 +66,17 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 ## Honors & Awards
 
-- 11/2020&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CoNEXT Student Travel Grant
-- 10/2020&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Tang Lixin Scholarship, Tsinghua University
-- 10/2019&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Second-class Comprehensive Excellent Scholarship, Tsinghua University
-- 08/2018&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; APNet Student Travel Grant
+- 10/2021&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; National Scholarship, BJTU
+- 11/2020&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Student Travel Grant, CoNEXT
+- 10/2020&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Tang Lixin Excellent Scholarship, THU
+- 10/2019&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Second-class Comprehensive Excellent Scholarship, THU
+- 08/2018&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Student Travel Grant, APNet
 - 06/2017&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Outstanding Graduate, BJTU
 - 10/2016&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; National Scholarship, BJTU
 - 10/2014&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; National Scholarship, BJTU
 
 
 ## Last updated
-September 29, 2021.
+October 15, 2021.
 
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=200oA3lQralEswP0erwgH0BFEqTwC3nWky-HuBb_lkc&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
