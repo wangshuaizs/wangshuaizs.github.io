@@ -66,7 +66,7 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 ## Honors & Awards
 
-- 10/2021&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; National Scholarship, BJTU
+- 10/2021&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; National Scholarship, THU
 - 11/2020&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Student Travel Grant, CoNEXT
 - 10/2020&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Tang Lixin Excellent Scholarship, THU
 - 10/2019&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Second-class Comprehensive Excellent Scholarship, THU
