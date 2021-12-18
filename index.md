@@ -38,6 +38,8 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 - [[**INFOCOM'19**](https://infocom2019.ieee-infocom.org/)] **Shuai Wang**, Dan Li, Jinkun Geng, Yue Gu, Yang Cheng. [Impact of Network Topology on the Performance of DML: Theoretical Analysis and Practical Factors](https://ieeexplore.ieee.org/document/8737595). In proceedings of IEEE INFOCOM, Paris, 2019.
 
+- [[**NSDI'22**](https://www.usenix.org/conference/nsdi22)] Kaihui Gao, Chen Sun, **Shuai Wang**, Dan Li, Yu Zhou, Hongqiang Harry Liu, Lingjun Zhu, Ming Zhang. [Buffer-based End-to-end Request Event Monitoring in the Cloud](https://wangshuaizs.github.io/). In USENIX NSDI, 2022.
+
 - [[**ToN**](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=90)] Songtao Wang, Dan Li, Yang Cheng, Jinkun Geng, Yanshu Wang, **Shuai Wang**, Shutao Xia, Jianping Wu. [BML: A Scalable, High-performance and Fault-tolerant Network Architecture for Distributed Machine Learning](https://ieeexplore.ieee.org/document/9121766). In IEEE/ACM Transactions on Networking, 2020.
 
 - [[**ICDE'20**](https://www.utdallas.edu/icde/)] Jinkun Geng, Dan Li, **Shuai Wang**. [Fela: Incorporating Flexible Parallelism and Elastic Tuning to Accelerate Large-Scale DML](https://ieeexplore.ieee.org/document/9101492). In proceedings of IEEE ICDE, Dallas, 2020.
@@ -77,6 +79,6 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 
 ## Last updated
-October 15, 2021.
+December 18, 2021.
 
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=200oA3lQralEswP0erwgH0BFEqTwC3nWky-HuBb_lkc&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
