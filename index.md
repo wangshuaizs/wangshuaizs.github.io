@@ -28,6 +28,8 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 ## Selected Publications
 
+- [[**SIGCOMM'20**](https://conferences.sigcomm.org/sigcomm/2022/)] **Shuai Wang**, Kaihui Gao, Kun Qian, Dan Li, Rui Miao, Bo Li, Yu Zhou, Ennan Zhai, Chen Sun, Jiaqi Gao, Dai Zhang, Binzhang Fu, Frank Kelly, Dennis Cai, Hongqiang Harry Liu, Ming Zhang. [Predictable vFabric on Informative Data Plane](https://wangshuaizs.github.io/). In proceedings of ACM SIGCOMM, Amsterdam, 2022.
+
 - [[**ToN**](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=90)] **Shuai Wang**, Jinkun Geng, Dan Li. [Impact of Synchronization Topology on DML Performance: both Logical Topology and Physical Topology](https://wangshuaizs.github.io/). In IEEE/ACM Transactions on Networking, 2021.
 
 - [[**CJC**](https://cjc.ict.ac.cn/)] **Shuai Wang**, Dan Li. [Research Progress on Network Performance Optimization of Distributed Machine Learning System](https://wangshuaizs.github.io/). In Chinese Journal of Computers (in Chinese: 分布式机器学习系统网络性能优化研究进展), 2021.
@@ -79,6 +81,6 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 
 ## Last updated
-December 18, 2021.
+May 8, 2022.
 
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=200oA3lQralEswP0erwgH0BFEqTwC3nWky-HuBb_lkc&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
