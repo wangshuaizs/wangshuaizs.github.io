@@ -18,7 +18,7 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 ## Education
 
-- **Ph.D. candidate** in the Department of Computer Science and Technology
+- **Ph.D.** in the Department of Computer Science and Technology
     - 2017.09 – 2022.06
     - Tsinghua University (THU)
 - **B.Eng.** in the School of Electronic and Information Engineering
