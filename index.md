@@ -1,7 +1,7 @@
 ## Profile
 <img align="right" img width="160" src="shuai.jpg"/>
 
-I received my Ph.D in Computer Science from Tsinghua University in 2022，under the supervision of [Prof. Dan Li](https://nasp.cs.tsinghua.edu.cn/lidan.html).
+I received my Ph.D. in Computer Science from Tsinghua University in 2022，under the supervision of [Prof. Dan Li](https://nasp.cs.tsinghua.edu.cn/lidan.html).
 
 E-mail: s-wang17 [AT] tsinghua.org.cn
 
@@ -72,6 +72,7 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 ## Honors & Awards
 
+- 06/2022&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Outstanding Ph.D. Graduate, THU
 - 10/2021&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; National Scholarship, THU
 - 11/2020&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Student Travel Grant, CoNEXT
 - 10/2020&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Tang Lixin Excellent Scholarship, THU
