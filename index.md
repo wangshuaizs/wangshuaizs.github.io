@@ -72,6 +72,7 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 ## Honors & Awards
 
+- 06/2022&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Outstanding doctoral dissertation, THU
 - 06/2022&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Outstanding Ph.D. Graduate, THU
 - 10/2021&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; National Scholarship, THU
 - 11/2020&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Student Travel Grant, CoNEXT
@@ -84,7 +85,7 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 
 ## Last updated
-June 21, 2022.
+June 27, 2022.
 
 
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=200oA3lQralEswP0erwgH0BFEqTwC3nWky-HuBb_lkc&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
