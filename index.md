@@ -28,7 +28,7 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 ## Selected Publications
 
-- [[**SIGCOMM'22**](https://conferences.sigcomm.org/sigcomm/2022/)] **Shuai Wang**, Kaihui Gao, Kun Qian, Dan Li, Rui Miao, Bo Li, Yu Zhou, Ennan Zhai, Chen Sun, Jiaqi Gao, Dai Zhang, Binzhang Fu, Frank Kelly, Dennis Cai, Hongqiang Harry Liu, Ming Zhang. [Predictable Virtual Fabric on Informative Data Plane](https://wangshuaizs.github.io/). In proceedings of ACM SIGCOMM, Amsterdam, 2022.
+- [[**SIGCOMM'22**](https://conferences.sigcomm.org/sigcomm/2022/)] **Shuai Wang**, Kaihui Gao, Kun Qian, Dan Li, Rui Miao, Bo Li, Yu Zhou, Ennan Zhai, Chen Sun, Jiaqi Gao, Dai Zhang, Binzhang Fu, Frank Kelly, Dennis Cai, Hongqiang Harry Liu, Ming Zhang. [Predictable vFabric on Informative Data Plane](https://dl.acm.org/doi/abs/10.1145/3544216.3544241). In proceedings of ACM SIGCOMM, Amsterdam, 2022.
 
 - [[**ToN**](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=90)] **Shuai Wang**, Jinkun Geng, Dan Li. [Impact of Synchronization Topology on DML Performance: both Logical Topology and Physical Topology](https://ieeexplore.ieee.org/document/9565148). In IEEE/ACM Transactions on Networking, 2021.
 
@@ -59,6 +59,7 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 ## Talks
 
+- $\mu$FAB: Predictable vFabric on Informative Data Plane. [[Slides]](https://drive.google.com/file/d/1O4lDJy9nRH6XFDJOG54t92JLz1A22Ggz/view?usp=sharing),[[Video]](https://drive.google.com/file/d/1IBgsop5Bhu075V6Hd2tOMe4X80hT0OJv/view?usp=sharing). ACM SIGCOMM 2022.
 - CEFS: Compute-Efficient Flow Scheduling for Iterative Synchronous Applications. [[Slides]](https://wangshuaizs.github.io/),[[Video]](https://wangshuaizs.github.io/). ACM CoNEXT 2020.
 - Geryon: Accelerating Distributed CNN Training by Network-Level Flow Scheduling. [[Slides]](https://wangshuaizs.github.io/),[[Video]](https://wangshuaizs.github.io/). IEEE INFOCOM 2020.
 - Impact of Network Topology on the Performance of DML: Theoretical Analysis and Practical Factors. [[Slides]](https://wangshuaizs.github.io/). IEEE INFOCOM 2019.
@@ -85,7 +86,7 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 
 ## Last updated
-June 27, 2022.
+Sep 9, 2022.
 
 
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=200oA3lQralEswP0erwgH0BFEqTwC3nWky-HuBb_lkc&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
