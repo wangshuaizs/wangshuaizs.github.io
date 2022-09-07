@@ -59,10 +59,10 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 ## Talks
 
-- $\mu$FAB: Predictable vFabric on Informative Data Plane. [[Slides]](https://drive.google.com/file/d/1O4lDJy9nRH6XFDJOG54t92JLz1A22Ggz/view?usp=sharing),[[Video]](https://drive.google.com/file/d/1IBgsop5Bhu075V6Hd2tOMe4X80hT0OJv/view?usp=sharing). ACM SIGCOMM 2022.
-- CEFS: Compute-Efficient Flow Scheduling for Iterative Synchronous Applications. [[Slides]](https://wangshuaizs.github.io/),[[Video]](https://wangshuaizs.github.io/). ACM CoNEXT 2020.
-- Geryon: Accelerating Distributed CNN Training by Network-Level Flow Scheduling. [[Slides]](https://wangshuaizs.github.io/),[[Video]](https://wangshuaizs.github.io/). IEEE INFOCOM 2020.
-- Impact of Network Topology on the Performance of DML: Theoretical Analysis and Practical Factors. [[Slides]](https://wangshuaizs.github.io/). IEEE INFOCOM 2019.
+- µFAB: Predictable vFabric on Informative Data Plane. [[Slides]](https://drive.google.com/file/d/1O4lDJy9nRH6XFDJOG54t92JLz1A22Ggz/view?usp=sharing),[[Video]](https://drive.google.com/file/d/1IBgsop5Bhu075V6Hd2tOMe4X80hT0OJv/view?usp=sharing). ACM SIGCOMM 2022.
+- CEFS: Compute-Efficient Flow Scheduling for Iterative Synchronous Applications. [[Slides]](https://drive.google.com/file/d/1x-Syz6RKEP1Qbehp3EtpXtPAvq6SEE38/view?usp=sharing),[[Video]](https://drive.google.com/file/d/1XNwFAbMrjIob0Vy_1PeXiquuZ0w43Dl_/view?usp=sharing). ACM CoNEXT 2020.
+- Geryon: Accelerating Distributed CNN Training by Network-Level Flow Scheduling. [[Slides]](https://drive.google.com/file/d/1DxSx68JujwkFfmzwGKxewCxr7nAbp6o2/view?usp=sharing),[[Video]](https://drive.google.com/file/d/1uc30lHXG0TCZyyVaQiGg3Enc_9tIliqo/view?usp=sharing). IEEE INFOCOM 2020.
+- Impact of Network Topology on the Performance of DML: Theoretical Analysis and Practical Factors. [[Slides]](https://drive.google.com/file/d/1npMJdhbM_oYSQDDrEOHQaAJfv9YbIgl2/view?usp=sharing). IEEE INFOCOM 2019.
 
 
 ## Professional Services
