@@ -42,8 +42,7 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 - [[**INFOCOM'23**](https://infocom2023.ieee-infocom.org/)] Honglin Ye, **Shuai Wang**, Dan Li. [Impact of International Submarine Cable on Internet Routing](https://wangshuaizs.github.io/). In proceedings of IEEE INFOCOM, New York, 2023.
 
-- [[**ToN**](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=90)] Kaihui Gao, **Shuai Wang**<sup>\*</sup>, Kun Qian, Dan Li, Rui Miao, Bo Li, Yu Zhou, Ennan Zhai, Chen Sun, Jiaqi Gao, Dai Zhang, Binzhang Fu, Frank Kelly, Dennis Cai, Hongqiang Harry Liu, Ming Zhang, Yan Li, Hongwei Yang, Tao Sun. [Dependable Virtualized Fabric on Programmable Data Plane](https://wangshuaizs.github.io/). In IEEE/ACM Transactions on Networking, 2023.
-<font size=1>\* co-first author</font>
+- [[**ToN**](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=90)] Kaihui Gao, **Shuai Wang**<sup>\*</sup>, Kun Qian, Dan Li, Rui Miao, Bo Li, Yu Zhou, Ennan Zhai, Chen Sun, Jiaqi Gao, Dai Zhang, Binzhang Fu, Frank Kelly, Dennis Cai, Hongqiang Harry Liu, Ming Zhang, Yan Li, Hongwei Yang, Tao Sun. [Dependable Virtualized Fabric on Programmable Data Plane](https://wangshuaizs.github.io/). In IEEE/ACM Transactions on Networking, 2023. (<font size=2>* co-first author</font>)
 
 - [[**NSDI'22**](https://www.usenix.org/conference/nsdi22)] Kaihui Gao, Chen Sun, **Shuai Wang**, Dan Li, Yu Zhou, Hongqiang Harry Liu, Lingjun Zhu, Ming Zhang. [Buffer-based End-to-end Request Event Monitoring in the Cloud](https://www.usenix.org/system/files/nsdi22-paper-gao_kaihui.pdf). In USENIX NSDI, Renton, 2022.
 
