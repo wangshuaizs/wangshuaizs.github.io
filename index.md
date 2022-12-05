@@ -30,7 +30,7 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 - [[**SIGCOMM'22**](https://conferences.sigcomm.org/sigcomm/2022/)] **Shuai Wang**, Kaihui Gao, Kun Qian, Dan Li, Rui Miao, Bo Li, Yu Zhou, Ennan Zhai, Chen Sun, Jiaqi Gao, Dai Zhang, Binzhang Fu, Frank Kelly, Dennis Cai, Hongqiang Harry Liu, Ming Zhang. [Predictable vFabric on Informative Data Plane](https://dl.acm.org/doi/abs/10.1145/3544216.3544241). In proceedings of ACM SIGCOMM, Amsterdam, 2022.
 
-- [[**ToN**](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=90)] **Shuai Wang**, Jinkun Geng, Dan Li. [Impact of Synchronization Topology on DML Performance: both Logical Topology and Physical Topology](https://ieeexplore.ieee.org/document/9565148). In IEEE/ACM Transactions on Networking, 2021.
+- [[**ToN**](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=90)] **Shuai Wang**, Jinkun Geng, Dan Li. [Impact of Synchronization Topology on DML Performance: both Logical Topology and Physical Topology](https://ieeexplore.ieee.org/document/9565148). In IEEE/ACM Transactions on Networking, 2022.
 
 - [[**CJC**](https://cjc.ict.ac.cn/)] **Shuai Wang**, Dan Li. [Research Progress on Network Performance Optimization of Distributed Machine Learning System](https://cjc.ict.ac.cn/online/bfpub/wsx-2022221103608.pdf). In Chinese Journal of Computers (in Chinese: 分布式机器学习系统网络性能优化研究进展), 2021.
 
@@ -39,6 +39,11 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 - [[**INFOCOM'20**](https://infocom2020.ieee-infocom.org/)] **Shuai Wang**, Dan Li, Jinkun Geng. [Geryon: Accelerating Distributed CNN Training by Network-Level Flow Scheduling](https://ieeexplore.ieee.org/document/9155282). In proceedings of IEEE INFOCOM, Virtual Conference, 2020.
 
 - [[**INFOCOM'19**](https://infocom2019.ieee-infocom.org/)] **Shuai Wang**, Dan Li, Jinkun Geng, Yue Gu, Yang Cheng. [Impact of Network Topology on the Performance of DML: Theoretical Analysis and Practical Factors](https://ieeexplore.ieee.org/document/8737595). In proceedings of IEEE INFOCOM, Paris, 2019.
+
+- [[**INFOCOM'23**](https://infocom2023.ieee-infocom.org/)] Honglin Ye, **Shuai Wang**, Dan Li. [Impact of International Submarine Cable on Internet Routing](https://wangshuaizs.github.io/). In proceedings of IEEE INFOCOM, New York, 2023.
+
+- [[**ToN**](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=90)] Kaihui Gao, **Shuai Wang**<sup>\*</sup>, Kun Qian, Dan Li, Rui Miao, Bo Li, Yu Zhou, Ennan Zhai, Chen Sun, Jiaqi Gao, Dai Zhang, Binzhang Fu, Frank Kelly, Dennis Cai, Hongqiang Harry Liu, Ming Zhang, Yan Li, Hongwei Yang, Tao Sun. [Dependable Virtualized Fabric on Programmable Data Plane](https://wangshuaizs.github.io/). In IEEE/ACM Transactions on Networking, 2023.
+<font size=1>\* co-first author</font>
 
 - [[**NSDI'22**](https://www.usenix.org/conference/nsdi22)] Kaihui Gao, Chen Sun, **Shuai Wang**, Dan Li, Yu Zhou, Hongqiang Harry Liu, Lingjun Zhu, Ming Zhang. [Buffer-based End-to-end Request Event Monitoring in the Cloud](https://www.usenix.org/system/files/nsdi22-paper-gao_kaihui.pdf). In USENIX NSDI, Renton, 2022.
 
@@ -73,7 +78,8 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 ## Honors & Awards
 
-- 06/2022&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Outstanding doctoral dissertation, THU
+- 11/2022&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Doctoral Dissertation Award, ACM SIGCOMM China
+- 06/2022&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Outstanding Doctoral Dissertation, THU
 - 06/2022&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Outstanding Ph.D. Graduate, THU
 - 10/2021&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; National Scholarship, THU
 - 11/2020&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Student Travel Grant, CoNEXT
@@ -86,7 +92,7 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 
 ## Last updated
-Sep 9, 2022.
+Dec, 5, 2022.
 
 
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=200oA3lQralEswP0erwgH0BFEqTwC3nWky-HuBb_lkc&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
