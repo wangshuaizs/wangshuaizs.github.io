@@ -44,6 +44,8 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 - [[**ToN**](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=90)] Kaihui Gao, **Shuai Wang**<sup>\*</sup>, Kun Qian, Dan Li, Rui Miao, Bo Li, Yu Zhou, Ennan Zhai, Chen Sun, Jiaqi Gao, Dai Zhang, Binzhang Fu, Frank Kelly, Dennis Cai, Hongqiang Harry Liu, Ming Zhang, Yan Li, Hongwei Yang, Tao Sun. [Dependable Virtualized Fabric on Programmable Data Plane](https://wangshuaizs.github.io/). In IEEE/ACM Transactions on Networking, 2023. <font size=3>(* co-first author)</font>
 
+- [[**ToN**](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=90)] Kaihui Gao , Chen Sun, Shuai Wang, Dan Li , Senior Member, IEEE, Yu Zhou, Hongqiang Harry Liu, Lingjun Zhu, Ming Zhang, Xiang Deng, Cheng Zhou, and Lu Lu. [Buffer-Based High-Coverage and Low-Overhead Request Event Monitoring in the Cloud](https://ieeexplore.ieee.org/document/10016287). In IEEE/ACM Transactions on Networking, 2023.
+
 - [[**NSDI'22**](https://www.usenix.org/conference/nsdi22)] Kaihui Gao, Chen Sun, **Shuai Wang**, Dan Li, Yu Zhou, Hongqiang Harry Liu, Lingjun Zhu, Ming Zhang. [Buffer-based End-to-end Request Event Monitoring in the Cloud](https://www.usenix.org/system/files/nsdi22-paper-gao_kaihui.pdf). In USENIX NSDI, Renton, 2022.
 
 - [[**ToN**](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=90)] Songtao Wang, Dan Li, Yang Cheng, Jinkun Geng, Yanshu Wang, **Shuai Wang**, Shutao Xia, Jianping Wu. [BML: A Scalable, High-performance and Fault-tolerant Network Architecture for Distributed Machine Learning](https://ieeexplore.ieee.org/document/9121766). In IEEE/ACM Transactions on Networking, 2020.
@@ -77,6 +79,7 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 ## Honors & Awards
 
+- 01/2023&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Outstanding Doctoral Dissertation Incentive Program, CCF
 - 11/2022&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Doctoral Dissertation Award, ACM SIGCOMM China
 - 06/2022&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Outstanding Doctoral Dissertation, THU
 - 06/2022&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Outstanding Ph.D. Graduate, THU
@@ -91,7 +94,7 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 
 ## Last updated
-Dec, 5, 2022.
+Jan, 13, 2023.
 
 
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=200oA3lQralEswP0erwgH0BFEqTwC3nWky-HuBb_lkc&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
