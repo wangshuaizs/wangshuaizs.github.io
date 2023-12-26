@@ -40,7 +40,9 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 - [[**INFOCOM'19**](https://infocom2019.ieee-infocom.org/)] **Shuai Wang**, Dan Li, Jinkun Geng, Yue Gu, Yang Cheng. [Impact of Network Topology on the Performance of DML: Theoretical Analysis and Practical Factors](https://ieeexplore.ieee.org/document/8737595). In proceedings of IEEE INFOCOM, Paris, 2019.
 
-- [[**INFOCOM'23**](https://infocom2023.ieee-infocom.org/)] Honglin Ye, **Shuai Wang**, Dan Li. [Impact of International Submarine Cable on Internet Routing](https://wangshuaizs.github.io/). In proceedings of IEEE INFOCOM, New York, 2023.
+- [[**INFOCOM'24**](https://infocom2024.ieee-infocom.org/)] Shuhan Zhang, **Shuai Wang**, Dan Li. [Robust or Risky: Measurement and Analysis of Domain Resolution Dependency](https://wangshuaizs.github.io/). In proceedings of IEEE INFOCOM, Vancouver, 2024.
+
+- [[**INFOCOM'23**](https://infocom2023.ieee-infocom.org/)] Honglin Ye, **Shuai Wang**, Dan Li. [Impact of International Submarine Cable on Internet Routing](https://ieeexplore.ieee.org/document/10229024). In proceedings of IEEE INFOCOM, New York, 2023.
 
 - [[**ToN**](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=90)] Kaihui Gao, **Shuai Wang**<sup>\*</sup>, Kun Qian, Dan Li, Rui Miao, Bo Li, Yu Zhou, Ennan Zhai, Chen Sun, Jiaqi Gao, Dai Zhang, Binzhang Fu, Frank Kelly, Dennis Cai, Hongqiang Harry Liu, Ming Zhang, Yan Li, Hongwei Yang, Tao Sun. [Dependable Virtualized Fabric on Programmable Data Plane](https://ieeexplore.ieee.org/document/10017157). In IEEE/ACM Transactions on Networking, 2023. <font size=3>(* co-first author)</font>
 
@@ -65,9 +67,14 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 ## Talks
 
+- A Large-scale Measurement of IP Source Spoofing on the Internet. [Slides],[[Video]](https://youtu.be/_1WfCDWVPTI?t=3552). IETF 118.
+
 - µFAB: Predictable vFabric on Informative Data Plane. [[Slides]](https://drive.google.com/file/d/1O4lDJy9nRH6XFDJOG54t92JLz1A22Ggz/view?usp=sharing),[[Video]](https://drive.google.com/file/d/1IBgsop5Bhu075V6Hd2tOMe4X80hT0OJv/view?usp=sharing). ACM SIGCOMM 2022.
+
 - CEFS: Compute-Efficient Flow Scheduling for Iterative Synchronous Applications. [[Slides]](https://drive.google.com/file/d/1x-Syz6RKEP1Qbehp3EtpXtPAvq6SEE38/view?usp=sharing),[[Video]](https://drive.google.com/file/d/1XNwFAbMrjIob0Vy_1PeXiquuZ0w43Dl_/view?usp=sharing). ACM CoNEXT 2020.
+
 - Geryon: Accelerating Distributed CNN Training by Network-Level Flow Scheduling. [[Slides]](https://drive.google.com/file/d/1DxSx68JujwkFfmzwGKxewCxr7nAbp6o2/view?usp=sharing),[[Video]](https://drive.google.com/file/d/1uc30lHXG0TCZyyVaQiGg3Enc_9tIliqo/view?usp=sharing). IEEE INFOCOM 2020.
+
 - Impact of Network Topology on the Performance of DML: Theoretical Analysis and Practical Factors. [[Slides]](https://drive.google.com/file/d/1npMJdhbM_oYSQDDrEOHQaAJfv9YbIgl2/view?usp=sharing). IEEE INFOCOM 2019.
 
 
