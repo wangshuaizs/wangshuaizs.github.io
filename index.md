@@ -1,19 +1,27 @@
 ## Profile
 <img align="right" img width="160" src="shuai.jpg"/>
 
-I received my Ph.D. in Computer Science from Tsinghua University in 2022，under the supervision of [Prof. Dan Li](https://nasp.cs.tsinghua.edu.cn/lidan.html).
+I am currently an assistant researcher at Beijing Zhongguancun Laboratory. Before that, I received my Ph.D. in Computer Science from Tsinghua University in 2022，under the supervision of [Prof. Dan Li](https://nasp.cs.tsinghua.edu.cn/lidan.html).
 
-E-mail: s-wang17 [AT] tsinghua.org.cn
+Now, I am focusing my efforts on an Internet measurement platform, namely [KI3](https://ki3.org.cn) (Key Information of Internet Infrastructure). 
+At [KI3](https://ki3.org.cn), we're committed to conducting extensive and ongoing measurements across diverse Internet infrastructures, from submarine cables to IP addresses and routing systems and to DNS. I am happy to connect and exchange insights about this.
 
-Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
+E-mail: wangshuai [AT] zgclab.edu.cn
+
+Address: Beijing, China
 
 [Google Scholar](https://scholar.google.com/citations?hl=en&user=Yo0BTHMAAAAJ)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [GitHub](https://github.com/wangshuaizs)
 
 
 ## Research Interests
+- Internet Infrastructure Measurement
 - Data Center Networking
 - Distributed Machine Learning System
+
+## News
+
+-  Attended IETF 119 in Brisbane and presented [IP spoofing measurement](https://youtu.be/Tg_oJ5F5PAc?t=3144).
 
 
 ## Education
@@ -67,7 +75,9 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 ## Talks
 
-- A Large-scale Measurement of IP Source Spoofing on the Internet. [Slides],[[Video]](https://youtu.be/_1WfCDWVPTI?t=3552). IETF 118.
+- More Methods to Measure IP Source Outbound Spoofing on the Internet. [Slides](https://ki3.org.cn/s3/reports/9/2024_shuai_slides_ietf_119_more_methods_to_measure_ip_source_outbound_spoofing_on_the_internet.pdf),[[Video]](https://youtu.be/Tg_oJ5F5PAc?t=3144). IETF 119.
+
+- A Large-scale Measurement of IP Source Spoofing on the Internet. [Slides](https://ki3.org.cn/s3/reports/6/2023_Shuai_slides_118_savnet_a_large_scale_measurement_of_ip_source_spoofing_on_the_internet_01.pdf),[[Video]](https://youtu.be/_1WfCDWVPTI?t=3552). IETF 118.
 
 - µFAB: Predictable vFabric on Informative Data Plane. [[Slides]](https://drive.google.com/file/d/1O4lDJy9nRH6XFDJOG54t92JLz1A22Ggz/view?usp=sharing),[[Video]](https://drive.google.com/file/d/1IBgsop5Bhu075V6Hd2tOMe4X80hT0OJv/view?usp=sharing). ACM SIGCOMM 2022.
 
@@ -101,7 +111,7 @@ Address: 4-104, FIT Building, Tsinghua University, Beijing, 100084, China
 
 
 ## Last updated
-Jan, 13, 2023.
+April, 11, 2024.
 
 
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=200oA3lQralEswP0erwgH0BFEqTwC3nWky-HuBb_lkc&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
