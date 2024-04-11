@@ -21,7 +21,7 @@ Address: Beijing, China
 
 ## News
 
--  Attended IETF 119 in Brisbane and presented [IP spoofing measurement](https://youtu.be/Tg_oJ5F5PAc?t=3144).
+-  [03/2024] Attended IETF 119 in Brisbane and presented [IP spoofing measurement](https://youtu.be/Tg_oJ5F5PAc?t=3144).
 
 
 ## Education
@@ -48,7 +48,7 @@ Address: Beijing, China
 
 - [[**INFOCOM'19**](https://infocom2019.ieee-infocom.org/)] **Shuai Wang**, Dan Li, Jinkun Geng, Yue Gu, Yang Cheng. [Impact of Network Topology on the Performance of DML: Theoretical Analysis and Practical Factors](https://ieeexplore.ieee.org/document/8737595). In proceedings of IEEE INFOCOM, Paris, 2019.
 
-- [[**INFOCOM'24**](https://infocom2024.ieee-infocom.org/)] Shuhan Zhang, **Shuai Wang**, Dan Li. [Robust or Risky: Measurement and Analysis of Domain Resolution Dependency](https://wangshuaizs.github.io/). In proceedings of IEEE INFOCOM, Vancouver, 2024.
+- [[**INFOCOM'24**](https://infocom2024.ieee-infocom.org/)] Shuhan Zhang, **Shuai Wang**, Dan Li. [Robust or Risky: Measurement and Analysis of Domain Resolution Dependency](https://ki3.org.cn/s3/reports/8/2024_Shuhan_infocom_robust_or_risky_measurement_and_analysis_of_domain_resolution_dependency.pdf). In proceedings of IEEE INFOCOM, Vancouver, 2024.
 
 - [[**INFOCOM'23**](https://infocom2023.ieee-infocom.org/)] Honglin Ye, **Shuai Wang**, Dan Li. [Impact of International Submarine Cable on Internet Routing](https://ieeexplore.ieee.org/document/10229024). In proceedings of IEEE INFOCOM, New York, 2023.
 
