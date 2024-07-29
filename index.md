@@ -21,6 +21,7 @@ Address: Beijing, China
 
 ## News
 
+-  [07/2024] Presented in IETF 120 remotely  [Measuring OSAV remotely](https://youtu.be/jncMVIjPbpM?t=2240).
 -  [03/2024] Attended IETF 119 in Brisbane and presented [IP spoofing measurement](https://youtu.be/Tg_oJ5F5PAc?t=3144).
 
 
@@ -75,9 +76,11 @@ Address: Beijing, China
 
 ## Talks
 
-- More Methods to Measure IP Source Outbound Spoofing on the Internet. [Slides](https://ki3.org.cn/s3/reports/9/2024_shuai_slides_ietf_119_more_methods_to_measure_ip_source_outbound_spoofing_on_the_internet.pdf),[[Video]](https://youtu.be/Tg_oJ5F5PAc?t=3144). IETF 119.
+- Identifying the Presence of Outbound Source Address Validation (OSAV) Remotely. [Slides](https://ki3.org.cn/#/networkAnalysisReport?publication=2024_identifying_the_presence_of_outbound_source_Address_validation_remotely&from=publication),[[Video]](https://youtu.be/jncMVIjPbpM?t=2240). IETF 120.
 
-- A Large-scale Measurement of IP Source Spoofing on the Internet. [Slides](https://ki3.org.cn/s3/reports/6/2023_Shuai_slides_118_savnet_a_large_scale_measurement_of_ip_source_spoofing_on_the_internet_01.pdf),[[Video]](https://youtu.be/_1WfCDWVPTI?t=3552). IETF 118.
+- More Methods to Measure IP Source Outbound Spoofing on the Internet. [Slides](https://ki3.org.cn/#/networkAnalysisReport?publication=2024_more_methods_to_measure_ip_source_outbound_spoofing_on_the_internet&from=publication),[[Video]](https://youtu.be/Tg_oJ5F5PAc?t=3144). IETF 119.
+
+- A Large-scale Measurement of IP Source Spoofing on the Internet. [Slides](https://ki3.org.cn/#/networkAnalysisReport?publication=2023_a_large_scale_measurement_of_ip_source_spoofing_on_the_internet&from=publication),[[Video]](https://youtu.be/_1WfCDWVPTI?t=3552). IETF 118.
 
 - µFAB: Predictable vFabric on Informative Data Plane. [[Slides]](https://drive.google.com/file/d/1O4lDJy9nRH6XFDJOG54t92JLz1A22Ggz/view?usp=sharing),[[Video]](https://drive.google.com/file/d/1IBgsop5Bhu075V6Hd2tOMe4X80hT0OJv/view?usp=sharing). ACM SIGCOMM 2022.
 
@@ -90,6 +93,7 @@ Address: Beijing, China
 
 ## Professional Services
 
+- SIGCOMM 2024 Artifacts Evaluation Committee Member.
 - Elsevier Knowledge-Based Systems, Reviewer, 2020.
 - IEEE Transactions on Network Science and Engineering, Reviewer, 2020.
 
@@ -111,7 +115,7 @@ Address: Beijing, China
 
 
 ## Last updated
-April, 11, 2024.
+July, 29, 2024.
 
 
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=200oA3lQralEswP0erwgH0BFEqTwC3nWky-HuBb_lkc&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
