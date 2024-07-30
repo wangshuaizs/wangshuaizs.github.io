@@ -76,7 +76,7 @@ Address: Beijing, China
 
 ## Talks
 
-- Identifying the Presence of Outbound Source Address Validation (OSAV) Remotely. [Slides](https://ki3.org.cn/#/networkAnalysisReport?publication=2024_identifying_the_presence_of_outbound_source_Address_validation_remotely&from=publication),[[Video]](https://youtu.be/jncMVIjPbpM?t=2240). IETF 120.
+- Identifying the Presence of Outbound Source Address Validation (OSAV) Remotely. [Slides](https://ki3.org.cn/#/networkAnalysisReport?publication=2024_identifying_the_presence_of_outbound_source_address_validation_osav_remotely&from=publication),[[Video]](https://youtu.be/jncMVIjPbpM?t=2240). IETF 120.
 
 - More Methods to Measure IP Source Outbound Spoofing on the Internet. [Slides](https://ki3.org.cn/#/networkAnalysisReport?publication=2024_more_methods_to_measure_ip_source_outbound_spoofing_on_the_internet&from=publication),[[Video]](https://youtu.be/Tg_oJ5F5PAc?t=3144). IETF 119.
 
