@@ -22,7 +22,7 @@ Address: Beijing, China
 ## News
 
 -  [11/2024] Attended IETF 121 in Dublin and presented [Measuring OSAV remotely](https://youtu.be/VoN-DdoXF0U?t=2706).
--  [10/2024] Invited to serve as the PC for APNET 2025.
+-  [10/2024] Invited to serve on the PC for APNET 2025.
 -  [07/2024] Presented in IETF 120 remotely  [Measuring OSAV remotely](https://youtu.be/jncMVIjPbpM?t=2240).
 -  [03/2024] Attended IETF 119 in Brisbane and presented [IP spoofing measurement](https://youtu.be/Tg_oJ5F5PAc?t=3144).
 
