@@ -98,7 +98,7 @@ Address: Beijing, China
 ## Professional Services
 
 - ACM APNet 2025, TPC Member.
-- SIGCOMM 2024 Artifacts Evaluation Committee Member.
+- ACM SIGCOMM 2024, AEC Member.
 - Elsevier Knowledge-Based Systems, Reviewer, 2020.
 - IEEE Transactions on Network Science and Engineering, Reviewer, 2020.
 
