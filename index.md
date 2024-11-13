@@ -15,12 +15,14 @@ Address: Beijing, China
 
 
 ## Research Interests
+- Distributed Deep Learning System
 - Internet Infrastructure Measurement
 - Data Center Networking
-- Distributed Machine Learning System
 
 ## News
 
+-  [11/2024] Attended IETF 121 in Dublin and presented [Measuring OSAV remotely](https://youtu.be/VoN-DdoXF0U?t=2706).
+-  [10/2024] Invited to serve as the PC for APNET 2025.
 -  [07/2024] Presented in IETF 120 remotely  [Measuring OSAV remotely](https://youtu.be/jncMVIjPbpM?t=2240).
 -  [03/2024] Attended IETF 119 in Brisbane and presented [IP spoofing measurement](https://youtu.be/Tg_oJ5F5PAc?t=3144).
 
@@ -76,6 +78,8 @@ Address: Beijing, China
 
 ## Talks
 
+- Remote Measurement of Outbound Source Address Validation Deployment. [Slides](https://ki3.org.cn/#/networkAnalysisReport?publication=2024_remote_measuring_of_outbound_source_address_validation_deployment&from=publication),[[Video]](https://youtu.be/VoN-DdoXF0U?t=2706). IETF 121.
+
 - Identifying the Presence of Outbound Source Address Validation (OSAV) Remotely. [Slides](https://ki3.org.cn/#/networkAnalysisReport?publication=2024_identifying_the_presence_of_outbound_source_address_validation_osav_remotely&from=publication),[[Video]](https://youtu.be/jncMVIjPbpM?t=2240). IETF 120.
 
 - More Methods to Measure IP Source Outbound Spoofing on the Internet. [Slides](https://ki3.org.cn/#/networkAnalysisReport?publication=2024_more_methods_to_measure_ip_source_outbound_spoofing_on_the_internet&from=publication),[[Video]](https://youtu.be/Tg_oJ5F5PAc?t=3144). IETF 119.
@@ -93,6 +97,7 @@ Address: Beijing, China
 
 ## Professional Services
 
+- ACM APNet 2025, TPC Member.
 - SIGCOMM 2024 Artifacts Evaluation Committee Member.
 - Elsevier Knowledge-Based Systems, Reviewer, 2020.
 - IEEE Transactions on Network Science and Engineering, Reviewer, 2020.
@@ -115,7 +120,7 @@ Address: Beijing, China
 
 
 ## Last updated
-July, 29, 2024.
+November 13, 2024.
 
 
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=200oA3lQralEswP0erwgH0BFEqTwC3nWky-HuBb_lkc&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
