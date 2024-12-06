@@ -21,6 +21,7 @@ Address: Beijing, China
 
 ## News
 
+-  [12/2024] SAIP accepted to [IEEE INFOCOM 2025](https://infocom2025.ieee-infocom.org/).
 -  [11/2024] Attended IETF 121 in Dublin and presented [Measuring OSAV remotely](https://youtu.be/VoN-DdoXF0U?t=2706).
 -  [10/2024] Invited to serve on the PC for APNET 2025.
 -  [07/2024] Presented in IETF 120 remotely  [Measuring OSAV remotely](https://youtu.be/jncMVIjPbpM?t=2240).
@@ -120,7 +121,7 @@ Address: Beijing, China
 
 
 ## Last updated
-November 13, 2024.
+December 6, 2024.
 
 
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=200oA3lQralEswP0erwgH0BFEqTwC3nWky-HuBb_lkc&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
