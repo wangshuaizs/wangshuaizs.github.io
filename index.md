@@ -1,10 +1,10 @@
 ## Profile
 <img align="right" img width="160" src="shuai.jpg"/>
 
-I am currently an assistant researcher at Beijing Zhongguancun Laboratory. Before that, I received my Ph.D. in Computer Science from Tsinghua University in 2022，under the supervision of [Prof. Dan Li](https://nasp.cs.tsinghua.edu.cn/lidan.html).
+I am currently an associate researcher at Beijing Zhongguancun Laboratory, working closely with [Dr. Li Chen](https://li-ch.github.io/resume/) and [Prof. Dan Li](https://nasp.cs.tsinghua.edu.cn/lidan.html). Before that, I received my Ph.D. in Computer Science from Tsinghua University in 2022.
 
-Now, I am focusing my efforts on an Internet measurement platform, namely [KI3](https://ki3.org.cn) (Key Information of Internet Infrastructure). 
-At [KI3](https://ki3.org.cn), we're committed to conducting extensive and ongoing measurements across diverse Internet infrastructures, from submarine cables to IP addresses and routing systems and to DNS. I am happy to connect and exchange insights about this.
+My current research topics include distributed deep learning system, and network security. Besides, I am leading the development of an Internet measurement platform, namely [KI3](https://ki3.org.cn) (Key Information of Internet Infrastructure). 
+At [KI3](https://ki3.org.cn). I am happy to connect and exchange insights about these topics.
 
 E-mail: wangshuai [AT] zgclab.edu.cn
 
@@ -21,7 +21,7 @@ Address: Beijing, China
 
 ## News
 
--  [12/2024] SAIP accepted to [IEEE INFOCOM 2025](https://infocom2025.ieee-infocom.org/).
+-  [12/2024] [SAIP](https://ki3.org.cn/#/networkAnalysisReport?publication=2025_saip_accurate_detection_of_anycast_servers_with_the_rise_of_regional_anycast&from=publication) accepted to [IEEE INFOCOM 2025](https://infocom2025.ieee-infocom.org/).
 -  [11/2024] Attended IETF 121 in Dublin and presented [Measuring OSAV remotely](https://youtu.be/VoN-DdoXF0U?t=2706).
 -  [10/2024] Invited to serve on the PC for APNET 2025.
 -  [07/2024] Presented in IETF 120 remotely  [Measuring OSAV remotely](https://youtu.be/jncMVIjPbpM?t=2240).
@@ -52,6 +52,8 @@ Address: Beijing, China
 
 - [[**INFOCOM'19**](https://infocom2019.ieee-infocom.org/)] **Shuai Wang**, Dan Li, Jinkun Geng, Yue Gu, Yang Cheng. [Impact of Network Topology on the Performance of DML: Theoretical Analysis and Practical Factors](https://ieeexplore.ieee.org/document/8737595). In proceedings of IEEE INFOCOM, Paris, 2019.
 
+- [[**INFOCOM'25**](https://infocom2025.ieee-infocom.org/)] Ke Zhou, **Shuai Wang**, Li Chen, Dan Li, Shuhan Zhang. [SAIP: Accurate Detection of Anycast Servers with the Rise of Regional Anycast](https://ki3.org.cn/public/publications/2025_saip_accurate_detection_of_anycast_servers_with_the_rise_of_regional_anycast.pdf). In proceedings of IEEE INFOCOM, London, 2025.
+
 - [[**INFOCOM'24**](https://infocom2024.ieee-infocom.org/)] Shuhan Zhang, **Shuai Wang**, Dan Li. [Robust or Risky: Measurement and Analysis of Domain Resolution Dependency](https://ki3.org.cn/s3/reports/8/2024_Shuhan_infocom_robust_or_risky_measurement_and_analysis_of_domain_resolution_dependency.pdf). In proceedings of IEEE INFOCOM, Vancouver, 2024.
 
 - [[**INFOCOM'23**](https://infocom2023.ieee-infocom.org/)] Honglin Ye, **Shuai Wang**, Dan Li. [Impact of International Submarine Cable on Internet Routing](https://ieeexplore.ieee.org/document/10229024). In proceedings of IEEE INFOCOM, New York, 2023.
@@ -69,12 +71,6 @@ Address: Beijing, China
 - [[**ICDE'19**](http://conferences.cis.umac.mo/icde2019/)] Jinkun Geng, Dan Li, **Shuai Wang**. [Rima: An RDMA-Accelerated Model-Parallelized Solution to Large-Scale Matrix Factorization](https://ieeexplore.ieee.org/abstract/document/8731445). In proceedings of IEEE ICDE, Macau SAR, 2019.
 
 - [[**NeurIPS'18**](https://nips.cc/Conferences/2018)] Songtao Wang, Dan Li, Yang Cheng, Jinkun Geng, Yanshu Wang, **Shuai Wang**, Shutao Xia, Jianping Wu. [BML: A High-performance, Low-cost Gradient Synchronization Algorithm for DML Training](https://proceedings.neurips.cc/paper/2018/file/f410588e48dc83f2822a880a68f78923-Paper.pdf). In proceedings of NeurIPS, Montreal, 2018.
-
-- [[**APNet'22**](https://conferences.sigcomm.org/events/apnet2022/index.html)] Kaihui Gao, Dan Li, **Shuai Wang**. [Bandwidth-efficient Microburst Measurement in Large-scale Datacenter Networks](https://wangshuaizs.github.io/). In APNet Workshop, Fuzhou, 2022.
-
-- [[**APNet'19**](https://conferences.sigcomm.org/events/apnet2019/index.html)] Jinkun Geng, Dan Li, **Shuai Wang**. [Accelerating Distributed Machine Learning by Smart Parameter Server](https://dl.acm.org/doi/10.1145/3343180.3343192). In APNet Workshop, Beijing, 2019.
-
-- [[**NetAI'18**](https://conferences.sigcomm.org/sigcomm/2018/workshop-netaim.html)] Jinkun Geng, Dan Li, Yang Cheng, **Shuai Wang**, Junfeng Li. [HiPS: Hierarchical Parameter Synchronization in Large-Scale Distributed Machine Learning](https://dl.acm.org/doi/10.1145/3229543.3229544). In proceedings of ACM SIGCOMM, NetAI Workshop, Budapest, 2018.
 
 
 ## Talks
@@ -100,28 +96,14 @@ Address: Beijing, China
 
 - ACM APNet 2025, TPC Member.
 - ACM SIGCOMM 2024, AEC Member.
+- IEEE/ACM Transactions on Networking, Reviewer, 2025.
+- IEEE Transactions on Cloud Computing, Reviewer, 2025.
 - Elsevier Knowledge-Based Systems, Reviewer, 2020.
 - IEEE Transactions on Network Science and Engineering, Reviewer, 2020.
 
 
-## Honors & Awards
-
-- 01/2023&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Outstanding Doctoral Dissertation Incentive Program, CCF
-- 11/2022&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Doctoral Dissertation Award, ACM SIGCOMM China
-- 06/2022&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Outstanding Doctoral Dissertation, THU
-- 06/2022&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Outstanding Ph.D. Graduate, THU
-- 10/2021&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; National Scholarship, THU
-- 11/2020&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Student Travel Grant, CoNEXT
-- 10/2020&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Tang Lixin Excellent Scholarship, THU
-- 10/2019&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Second-class Comprehensive Excellent Scholarship, THU
-- 08/2018&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Student Travel Grant, APNet
-- 06/2017&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Outstanding Graduate, BJTU
-- 10/2016&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; National Scholarship, BJTU
-- 10/2014&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; National Scholarship, BJTU
-
-
 ## Last updated
-December 6, 2024.
+January 17, 2025.
 
 
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=200oA3lQralEswP0erwgH0BFEqTwC3nWky-HuBb_lkc&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
