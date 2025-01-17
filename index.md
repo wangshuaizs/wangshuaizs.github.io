@@ -3,8 +3,7 @@
 
 I am currently an associate researcher at Beijing Zhongguancun Laboratory, working closely with [Dr. Li Chen](https://li-ch.github.io/resume/) and [Prof. Dan Li](https://nasp.cs.tsinghua.edu.cn/lidan.html). Before that, I received my Ph.D. in Computer Science from Tsinghua University in 2022.
 
-My current research topics include distributed deep learning system, and network security. Besides, I am leading the development of an Internet measurement platform, namely [KI3](https://ki3.org.cn) (Key Information of Internet Infrastructure). 
-At [KI3](https://ki3.org.cn). I am happy to connect and exchange insights about these topics.
+My current research topics include distributed deep learning system, and network security. Besides, I am leading the development of an Internet measurement platform, namely [KI3](https://ki3.org.cn) (Key Information of Internet Infrastructure). I am happy to connect and exchange insights about these topics.
 
 E-mail: wangshuai [AT] zgclab.edu.cn
 
