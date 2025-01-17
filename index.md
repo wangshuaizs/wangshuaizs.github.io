@@ -15,7 +15,7 @@ Address: Beijing, China
 
 ## Research Interests
 - Distributed Deep Learning System
-- Internet Infrastructure Measurement
+- Network Security
 - Data Center Networking
 
 ## News
