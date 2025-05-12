@@ -20,11 +20,12 @@ Address: Beijing, China
 
 ## News
 
--  [12/2024] [SAIP](https://ki3.org.cn/#/networkAnalysisReport?publication=2025_saip_accurate_detection_of_anycast_servers_with_the_rise_of_regional_anycast&from=publication) accepted to [IEEE INFOCOM 2025](https://infocom2025.ieee-infocom.org/).
+-  [05/2025] [RUC](https://wangshuaizs.github.io/) accepted to [USENIX Security 2025](https://www.usenix.org/conference/usenixsecurity25). Congratulations to Shuhan!
+-  [03/2025] Invited to serve as the Student Workshop Co-chair for CoNEXT 2025. Welcome to submit your work!
+-  [03/2025] Attended IETF 122 in Bangkok and presented [Source Address Validation Deployment Status](https://youtu.be/L-zx1H0ZcPQ?t=404).
+-  [12/2024] [SAIP](https://ki3.org.cn/#/networkAnalysisReport?publication=2025_saip_accurate_detection_of_anycast_servers_with_the_rise_of_regional_anycast&from=publication) accepted to [IEEE INFOCOM 2025](https://infocom2025.ieee-infocom.org/). Congratulations to Ke!
 -  [11/2024] Attended IETF 121 in Dublin and presented [Measuring OSAV remotely](https://youtu.be/VoN-DdoXF0U?t=2706).
 -  [10/2024] Invited to serve on the PC for APNET 2025.
--  [07/2024] Presented in IETF 120 remotely  [Measuring OSAV remotely](https://youtu.be/jncMVIjPbpM?t=2240).
--  [03/2024] Attended IETF 119 in Brisbane and presented [IP spoofing measurement](https://youtu.be/Tg_oJ5F5PAc?t=3144).
 
 
 ## Education
@@ -39,17 +40,7 @@ Address: Beijing, China
 
 ## Selected Publications
 
-- [[**SIGCOMM'22**](https://conferences.sigcomm.org/sigcomm/2022/)] **Shuai Wang**, Kaihui Gao, Kun Qian, Dan Li, Rui Miao, Bo Li, Yu Zhou, Ennan Zhai, Chen Sun, Jiaqi Gao, Dai Zhang, Binzhang Fu, Frank Kelly, Dennis Cai, Hongqiang Harry Liu, Ming Zhang. [Predictable vFabric on Informative Data Plane](https://dl.acm.org/doi/abs/10.1145/3544216.3544241). In proceedings of ACM SIGCOMM, Amsterdam, 2022.
-
-- [[**ToN**](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=90)] **Shuai Wang**, Jinkun Geng, Dan Li. [Impact of Synchronization Topology on DML Performance: both Logical Topology and Physical Topology](https://ieeexplore.ieee.org/document/9565148). In IEEE/ACM Transactions on Networking, 2022.
-
-- [[**CJC**](https://cjc.ict.ac.cn/)] **Shuai Wang**, Dan Li. [Research Progress on Network Performance Optimization of Distributed Machine Learning System](https://cjc.ict.ac.cn/online/bfpub/wsx-2022221103608.pdf). In Chinese Journal of Computers (in Chinese: 分布式机器学习系统网络性能优化研究进展), 2021.
-
-- [[**CoNEXT'20**](https://conferences.sigcomm.org/co-next/2020/#!/home)] **Shuai Wang**, Dan Li, Jiansong Zhang, Wei Lin. [CEFS: Compute-Efficient Flow Scheduling for Iterative Synchronous Applications](https://dl.acm.org/doi/10.1145/3386367.3431307). In proceedings of ACM CoNEXT, Virtual Conference, 2020.
-
-- [[**INFOCOM'20**](https://infocom2020.ieee-infocom.org/)] **Shuai Wang**, Dan Li, Jinkun Geng. [Geryon: Accelerating Distributed CNN Training by Network-Level Flow Scheduling](https://ieeexplore.ieee.org/document/9155282). In proceedings of IEEE INFOCOM, Virtual Conference, 2020.
-
-- [[**INFOCOM'19**](https://infocom2019.ieee-infocom.org/)] **Shuai Wang**, Dan Li, Jinkun Geng, Yue Gu, Yang Cheng. [Impact of Network Topology on the Performance of DML: Theoretical Analysis and Practical Factors](https://ieeexplore.ieee.org/document/8737595). In proceedings of IEEE INFOCOM, Paris, 2019.
+- [[**Security'25**](https://www.usenix.org/conference/usenixsecurity25)] Shuhan Zhang, **Shuai Wang**, Li Chen, Dan Li, Baojun Liu. [Your Shield is My Sword: A Persistent Denial-of-Service Attack via the Reuse of Unvalidated Caches in DNSSEC Validation](https://wangshuaizs.github.io/). In proceedings of USENIX Security, Seattle, 2025.
 
 - [[**INFOCOM'25**](https://infocom2025.ieee-infocom.org/)] Ke Zhou, **Shuai Wang**, Li Chen, Dan Li, Shuhan Zhang. [SAIP: Accurate Detection of Anycast Servers with the Rise of Regional Anycast](https://ki3.org.cn/public/publications/2025_saip_accurate_detection_of_anycast_servers_with_the_rise_of_regional_anycast.pdf). In proceedings of IEEE INFOCOM, London, 2025.
 
@@ -61,11 +52,21 @@ Address: Beijing, China
 
 - [[**ToN**](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=90)] Kaihui Gao, Chen Sun, **Shuai Wang**, Dan Li, Yu Zhou, Hongqiang Harry Liu, Lingjun Zhu, Ming Zhang, Xiang Deng, Cheng Zhou, and Lu Lu. [Buffer-Based High-Coverage and Low-Overhead Request Event Monitoring in the Cloud](https://ieeexplore.ieee.org/document/10016287). In IEEE/ACM Transactions on Networking, 2023.
 
+- [[**SIGCOMM'22**](https://conferences.sigcomm.org/sigcomm/2022/)] **Shuai Wang**, Kaihui Gao, Kun Qian, Dan Li, Rui Miao, Bo Li, Yu Zhou, Ennan Zhai, Chen Sun, Jiaqi Gao, Dai Zhang, Binzhang Fu, Frank Kelly, Dennis Cai, Hongqiang Harry Liu, Ming Zhang. [Predictable vFabric on Informative Data Plane](https://dl.acm.org/doi/abs/10.1145/3544216.3544241). In proceedings of ACM SIGCOMM, Amsterdam, 2022.
+
 - [[**NSDI'22**](https://www.usenix.org/conference/nsdi22)] Kaihui Gao, Chen Sun, **Shuai Wang**, Dan Li, Yu Zhou, Hongqiang Harry Liu, Lingjun Zhu, Ming Zhang. [Buffer-based End-to-end Request Event Monitoring in the Cloud](https://www.usenix.org/system/files/nsdi22-paper-gao_kaihui.pdf). In USENIX NSDI, Renton, 2022.
+
+- [[**ToN**](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=90)] **Shuai Wang**, Jinkun Geng, Dan Li. [Impact of Synchronization Topology on DML Performance: both Logical Topology and Physical Topology](https://ieeexplore.ieee.org/document/9565148). In IEEE/ACM Transactions on Networking, 2022.
+
+- [[**CoNEXT'20**](https://conferences.sigcomm.org/co-next/2020/#!/home)] **Shuai Wang**, Dan Li, Jiansong Zhang, Wei Lin. [CEFS: Compute-Efficient Flow Scheduling for Iterative Synchronous Applications](https://dl.acm.org/doi/10.1145/3386367.3431307). In proceedings of ACM CoNEXT, Virtual Conference, 2020.
+
+- [[**INFOCOM'20**](https://infocom2020.ieee-infocom.org/)] **Shuai Wang**, Dan Li, Jinkun Geng. [Geryon: Accelerating Distributed CNN Training by Network-Level Flow Scheduling](https://ieeexplore.ieee.org/document/9155282). In proceedings of IEEE INFOCOM, Virtual Conference, 2020.
+
+- [[**ICDE'20**](https://www.utdallas.edu/icde/)] Jinkun Geng, Dan Li, **Shuai Wang**. [Fela: Incorporating Flexible Parallelism and Elastic Tuning to Accelerate Large-Scale DML](https://ieeexplore.ieee.org/document/9101492). In proceedings of IEEE ICDE, Dallas, 2020.
 
 - [[**ToN**](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=90)] Songtao Wang, Dan Li, Yang Cheng, Jinkun Geng, Yanshu Wang, **Shuai Wang**, Shutao Xia, Jianping Wu. [BML: A Scalable, High-performance and Fault-tolerant Network Architecture for Distributed Machine Learning](https://ieeexplore.ieee.org/document/9121766). In IEEE/ACM Transactions on Networking, 2020.
 
-- [[**ICDE'20**](https://www.utdallas.edu/icde/)] Jinkun Geng, Dan Li, **Shuai Wang**. [Fela: Incorporating Flexible Parallelism and Elastic Tuning to Accelerate Large-Scale DML](https://ieeexplore.ieee.org/document/9101492). In proceedings of IEEE ICDE, Dallas, 2020.
+- [[**INFOCOM'19**](https://infocom2019.ieee-infocom.org/)] **Shuai Wang**, Dan Li, Jinkun Geng, Yue Gu, Yang Cheng. [Impact of Network Topology on the Performance of DML: Theoretical Analysis and Practical Factors](https://ieeexplore.ieee.org/document/8737595). In proceedings of IEEE INFOCOM, Paris, 2019.
 
 - [[**ICDE'19**](http://conferences.cis.umac.mo/icde2019/)] Jinkun Geng, Dan Li, **Shuai Wang**. [Rima: An RDMA-Accelerated Model-Parallelized Solution to Large-Scale Matrix Factorization](https://ieeexplore.ieee.org/abstract/document/8731445). In proceedings of IEEE ICDE, Macau SAR, 2019.
 
@@ -73,6 +74,8 @@ Address: Beijing, China
 
 
 ## Talks
+
+- Source Address Validation Deployment Status. [draft](https://datatracker.ietf.org/doc/draft-wang-sav-deployment-status/),[[Video]](https://youtu.be/L-zx1H0ZcPQ?t=404). IETF 122.
 
 - Remote Measurement of Outbound Source Address Validation Deployment. [Slides](https://ki3.org.cn/#/networkAnalysisReport?publication=2024_remote_measuring_of_outbound_source_address_validation_deployment&from=publication),[[Video]](https://youtu.be/VoN-DdoXF0U?t=2706). IETF 121.
 
@@ -93,6 +96,7 @@ Address: Beijing, China
 
 ## Professional Services
 
+- ACM CoNEXT 2025, Student Workshop Co-chair.
 - ACM APNet 2025, TPC Member.
 - ACM SIGCOMM 2024, AEC Member.
 - IEEE/ACM Transactions on Networking, Reviewer, 2025.
@@ -102,7 +106,7 @@ Address: Beijing, China
 
 
 ## Last updated
-January 17, 2025.
+May 1, 2025.
 
 
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=200oA3lQralEswP0erwgH0BFEqTwC3nWky-HuBb_lkc&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
