@@ -21,7 +21,7 @@ Address: Beijing, China
 ## News
 
 -  [05/2025] [RUC](https://wangshuaizs.github.io/) accepted to [USENIX Security 2025](https://www.usenix.org/conference/usenixsecurity25). Congratulations to Shuhan!
--  [03/2025] Invited to serve as the Student Workshop Co-chair for CoNEXT 2025. Welcome to submit your work!
+-  [03/2025] Invited to serve as the Student Workshop Co-chair for CoNEXT 2025. Submissions are welcome!
 -  [03/2025] Attended IETF 122 in Bangkok and presented [Source Address Validation Deployment Status](https://youtu.be/L-zx1H0ZcPQ?t=404).
 -  [12/2024] [SAIP](https://ki3.org.cn/#/networkAnalysisReport?publication=2025_saip_accurate_detection_of_anycast_servers_with_the_rise_of_regional_anycast&from=publication) accepted to [IEEE INFOCOM 2025](https://infocom2025.ieee-infocom.org/). Congratulations to Ke!
 -  [11/2024] Attended IETF 121 in Dublin and presented [Measuring OSAV remotely](https://youtu.be/VoN-DdoXF0U?t=2706).
