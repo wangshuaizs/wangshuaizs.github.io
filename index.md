@@ -41,7 +41,7 @@ Address: Beijing, China
 
 ## Selected Publications
 
-- [[**SIGCOMM'25 (short)**](https://conferences.sigcomm.org/sigcomm/2025/)] Zhongxu Guan, **Shuai Wang**, Li Chen, Zhaoteng Yan, Jiaye Lin, Dan Li, Yong Jiang, Yingxin Wang, Ziqian Liu. Discovering Millions of New Nodes and Links in the Internet by Challenging the Uniformity Assumption in Multipath Detection. ACM SIGCOMM, Coimbra, 2025.
+- [[**SIGCOMM'25 (short)**](https://conferences.sigcomm.org/sigcomm/2025/)] Zhongxu Guan, **Shuai Wang**, Li Chen, Zhaoteng Yan, Jiaye Lin, Dan Li, Yong Jiang, Yingxin Wang, Ziqian Liu. [Discovering Millions of New Nodes and Links in the Internet by Challenging the Uniformity Assumption in Multipath Detection](https://wangshuaizs.github.io/). ACM SIGCOMM, Coimbra, 2025.
 
 - [[**Security'25**](https://www.usenix.org/conference/usenixsecurity25)] Shuhan Zhang, **Shuai Wang**, Li Chen, Dan Li, Baojun Liu. [Your Shield is My Sword: A Persistent Denial-of-Service Attack via the Reuse of Unvalidated Caches in DNSSEC Validation](https://wangshuaizs.github.io/). USENIX Security, Seattle, 2025.
 
