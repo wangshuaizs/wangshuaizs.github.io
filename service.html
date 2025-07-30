@@ -6,24 +6,60 @@
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
+
+
+<!-- 导航栏 -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="index.html">Shuai Wang</a>
+  <!-- 折叠按钮 -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- 折叠内容 -->
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto">
-      <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+      <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
       <li class="nav-item"><a class="nav-link" href="publications.html">Publications</a></li>
-      <li class="nav-item active"><a class="nav-link" href="service.html">Service</a></li>
+      <li class="nav-item"><a class="nav-link" href="service.html">Service</a></li>
     </ul>
   </div>
 </nav>
 
 <div class="container mt-4">
-  <h2>Service</h2>
+  <h2>Organization</h2>
   <ul>
-    <li>CoNEXT 2025, Student Workshop Co-chair</li>
-    <li>APNet 2025, TPC Member</li>
-    <!-- 更多服务 -->
+      <li>Student Workshop Co-Chair, CoNEXT 2025</li>
   </ul>
 </div>
+
+<div class="container mt-4">
+  <h2>Program Committee</h2>
+  <ul>
+      <li>2025: CoNEXT</li>
+      <li>2024: SIGCOMM AEC</li>
+  </ul>
+</div>
+
+<div class="container mt-4">
+  <h2>Journal Reviewer</h2>
+  <ul>
+      <li>2025: IEEE/ACM Transactions on Networking, IEEE Transactions on Cloud Computing</li>
+      <li>2020: Elsevier Knowledge-Based Systems, IEEE Transactions on Network Science and Engineering</li>
+  </ul>
+</div>
+
+<!-- 页脚 -->
+<footer class="text-center text-muted py-3" style="background-color: #f8f9fa;">
+  <div class="container">
+    Last updated: July 30, 2025
+  </div>
+</footer>
+
+<!-- JS (一定要放在底部！) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
