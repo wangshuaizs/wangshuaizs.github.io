@@ -1,97 +1,156 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Shuai Wang's Homepage</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="author" content="Shuai Wang">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="/">
+
+    <title>Shuai Wang: Homepage</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <style>
+        body {
+            font-size: 15px;
+            padding-bottom: 20px;
+        }
+
+        h1 { font-size: 30px; line-height: 135%;}
+        h2 { font-size: 24px; line-height: 135%;}
+        h3 { font-size: 20px; line-height: 135%;}
+        h4 { font-size: 16px; }
+        h5 { font-size: 15px; }
+        h6 { font-size: 13px; }
+
+        hr {
+            border-top: 2px solid #e5e5e5;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        .navbar {
+            margin-bottom: 5px;
+        }
+
+        .navbar-brand {
+            font-size: 24px;
+        }
+
+        .nav-link {
+            font-size: 18px;
+        }
+
+        .profile-img {
+            width: 180px;
+            margin-left: 30px;
+            margin-top: 35px;
+            margin-bottom: 10px;
+            border-radius: 50%;
+        }
+
+        .social a {
+            font-size: 18px;
+            margin-right: 10px;
+        }
+
+        .tab-content {
+            padding: 20px;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f8f9fa;
+        }
+    </style>
 </head>
 <body>
 
-  <!-- Navbar -->
-  <nav class="navbar">
+    <!-- 导航栏 -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Shuai Wang</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#publications">Publications</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#service">Service</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 主页内容 -->
     <div class="container">
-      <ul class="nav-list">
-        <li class="tab" data-tab="home">Home</li>
-        <li class="tab" data-tab="publications">Publications</li>
-        <li class="tab" data-tab="service">Service</li>
-      </ul>
-    </div>
-  </nav>
-
-  <!-- Content Section -->
-  <div class="content">
-
-    <!-- Home Tab -->
-    <section id="home" class="tab-content">
-      <div class="container">
-        <header>
-          <div class="profile">
-            <img src="shuai.jpg" alt="Shuai Wang" class="profile-img">
-            <div class="intro">
-              <h1>Shuai Wang</h1>
-              <p class="title">Associate Researcher at Beijing Zhongguancun Laboratory</p>
-              <p><strong>Email:</strong> wangshuai [AT] zgclab.edu.cn</p>
-              <p><strong>Address:</strong> Beijing, China</p>
-              <div class="social-links">
-                <a href="https://scholar.google.com/citations?hl=en&user=Yo0BTHMAAAAJ" target="_blank">Google Scholar</a> | 
-                <a href="https://github.com/wangshuaizs" target="_blank">GitHub</a>
-              </div>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="shuai.jpg" class="profile-img img-thumbnail" alt="Shuai Wang">
             </div>
-          </div>
-        </header>
+            <div class="col-md-8">
+                <h1>Shuai Wang</h1>
+                <div class="social">
+                    <p>
+                        <a href="mailto:wangshuai@zgclab.edu.cn"><i class="fa fa-envelope"></i> Email</a>
+                        <a href="https://scholar.google.com/citations?user=Yo0BTHMAAAAJ"><i class="fa fa-google"></i> Google Scholar</a>
+                        <a href="https://github.com/wangshuaizs"><i class="fa fa-github"></i> GitHub</a>
+                    </p>
+                </div>
 
-        <section class="section">
-          <h2>Research Interests</h2>
-          <ul>
-            <li>Distributed Deep Learning System</li>
-            <li>Network Security</li>
-            <li>Data Center Networking</li>
-          </ul>
-        </section>
+                <p>Welcome! I’m an associate researcher at Beijing Zhongguancun Laboratory. My research interests include distributed deep learning systems, network security, and more.</p>
 
-        <section class="section">
-          <h2>News</h2>
-          <ul>
-            <li><strong>07/2025:</strong> BayMuDA accepted to SIGCOMM 2025.</li>
-            <li><strong>05/2025:</strong> RUC accepted to USENIX Security 2025.</li>
-            <li><strong>03/2025:</strong> Invited to serve as the Student Workshop Co-chair for CoNEXT 2025.</li>
-          </ul>
-        </section>
-      </div>
-    </section>
+                <p><strong>Research Interests:</strong> Distributed Deep Learning Systems, Network Security, Data Center Networking.</p>
+            </div>
+        </div>
 
-    <!-- Publications Tab -->
-    <section id="publications" class="tab-content">
-      <div class="container">
-        <h2>Selected Publications</h2>
-        <ul>
-          <li><a href="https://conferences.sigcomm.org/sigcomm/2025/" target="_blank">SIGCOMM'25 (short)</a> - Zhongxu Guan, Shuai Wang, Li Chen, Zhaoteng Yan, et al.</li>
-          <li><a href="https://www.usenix.org/conference/usenixsecurity25" target="_blank">Security'25</a> - Shuhan Zhang, Shuai Wang, Li Chen, et al.</li>
-        </ul>
-      </div>
-    </section>
+        <!-- 标签内容 -->
+        <div class="tab-content">
+            <div id="home" class="tab-pane active">
+                <h3>Research Interests</h3>
+                <ul>
+                    <li>Distributed Deep Learning System</li>
+                    <li>Network Security</li>
+                    <li>Data Center Networking</li>
+                </ul>
+                <h3>News</h3>
+                <ul>
+                    <li>05/2025: Paper RUC accepted to USENIX Security 2025</li>
+                </ul>
+            </div>
 
-    <!-- Service Tab -->
-    <section id="service" class="tab-content">
-      <div class="container">
-        <h2>Professional Services</h2>
-        <ul>
-          <li>CoNEXT 2025, Student Workshop Co-chair</li>
-          <li>APNet 2025, TPC Member</li>
-        </ul>
-      </div>
-    </section>
+            <div id="publications" class="tab-pane">
+                <h3>Selected Publications</h3>
+                <ul>
+                    <li><a href="https://sigcomm.org" target="_blank">SIGCOMM'25 - Zhongxu Guan, Shuai Wang, et al.</a></li>
+                    <li><a href="https://usenix.org" target="_blank">USENIX Security 2025 - Shuhan Zhang, Shuai Wang, et al.</a></li>
+                </ul>
+            </div>
 
-  </div>
-
-  <footer>
-    <div class="container">
-      <p>Last updated: July 15, 2025</p>
+            <div id="service" class="tab-pane">
+                <h3>Professional Services</h3>
+                <ul>
+                    <li>CoNEXT 2025, Student Workshop Co-chair</li>
+                    <li>APNet 2025, TPC Member</li>
+                </ul>
+            </div>
+        </div>
     </div>
-  </footer>
 
-  <script src="script.js"></script>
+    <footer class="footer">
+        <p>Last updated: July 15, 2025</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
