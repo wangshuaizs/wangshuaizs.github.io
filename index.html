@@ -1,4 +1,22 @@
-<!-- 只展示关键变化部分 -->
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>Shuai Wang - Home</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .profile-img {
+      max-width: 120px;
+      border-radius: 50%;
+    }
+    .section-title {
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- 导航栏 -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="index.html">Shuai Wang</a>
   <div class="collapse navbar-collapse" id="navbarNav">
@@ -9,3 +27,64 @@
     </ul>
   </div>
 </nav>
+
+<!-- 页面主体内容 -->
+<div class="container mt-5">
+  <!-- 头像与个人信息 -->
+  <div class="row">
+    <div class="col-md-2 text-center">
+      <img src="shuai.jpg" alt="Shuai Wang" class="profile-img">
+    </div>
+    <div class="col-md-10">
+      <h2>Shuai Wang</h2>
+      <p>Associate Researcher at Beijing Zhongguancun Laboratory</p>
+      <p><strong>Email:</strong> wangshuai [AT] zglab.edu.cn<br>
+         <strong>Address:</strong> Beijing, China</p>
+      <p><a href="#">Google Scholar</a> | <a href="#">GitHub</a></p>
+    </div>
+  </div>
+
+  <!-- Research Interests -->
+  <h4 class="section-title">Research Interests</h4>
+  <ul>
+    <li>Distributed Deep Learning System</li>
+    <li>Network Security</li>
+    <li>Data Center Networking</li>
+  </ul>
+
+  <!-- News -->
+  <h4 class="section-title">News</h4>
+  <ul>
+    <li><strong>07/2025:</strong> BayMuDA accepted to SIGCOMM 2025.</li>
+    <li><strong>05/2025:</strong> RUC accepted to USENIX Security 2025.</li>
+    <li><strong>03/2025:</strong> Invited to serve as the Student Workshop Co-chair for CoNEXT 2025.</li>
+  </ul>
+
+  <!-- Education -->
+  <h4 class="section-title">Education</h4>
+  <ul>
+    <li><strong>Ph.D.</strong> in Computer Science and Technology, Tsinghua University, 2022</li>
+    <li><strong>B.Eng.</strong> in Electronic and Information Engineering, Beijing Jiaotong University, 2017</li>
+  </ul>
+
+  <!-- Talks -->
+  <h4 class="section-title">Talks</h4>
+  <ul>
+    <li><a href="#">Source Address Validation Deployment Status</a> - IETF 122</li>
+    <li><a href="#">Remote Measurement of Outbound Source Address Validation Deployment</a> - IETF 121</li>
+  </ul>
+
+  <!-- Professional Services -->
+  <h4 class="section-title">Professional Services</h4>
+  <ul>
+    <li>CoNEXT 2025, Student Workshop Co-chair</li>
+    <li>APNet 2025, TPC Member</li>
+  </ul>
+
+  <footer class="text-center mt-5 mb-3 text-muted">
+    Last updated: July 15, 2025
+  </footer>
+</div>
+
+</body>
+</html>
