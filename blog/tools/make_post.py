@@ -12,7 +12,8 @@ Usage:
       [--date 2026-10-01]
 
 Writes blog/posts/<slug>/<lang>.html and prints the snippet to paste into blog/posts.js.
-Run it once per language. Then add the printed entry to posts.js (merge en/zh into one entry).
+Run it once per language; the second run also syncs the language switch inside every
+page of that post, so posts with only one language simply have no switch.
 """
 import argparse, html, os, re, sys
 
@@ -20,7 +21,11 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 BLOG = os.path.dirname(HERE)          # .../blog
 SITE = os.path.dirname(BLOG)          # repo root
 
-BAR_CSS = """<style id="wb-post-bar-css">
+LANGS = ["en", "zh"]
+LANG_LABEL = {"en": "English", "zh": "中文"}
+
+POST_CSS = """<style id="wb-post-bar-css">
+  /* --- site top bar (shared by every post page) --- */
   .wb-topbar{margin:-24px -12px 28px;background:#343a40;padding:0 16px;
     font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue','PingFang SC','Microsoft YaHei',sans-serif;}
   .wb-topbar *{box-sizing:border-box;}
@@ -31,24 +36,22 @@ BAR_CSS = """<style id="wb-post-bar-css">
   .wb-tb-nav a{color:rgba(255,255,255,.68);font-size:15px;text-decoration:none;}
   .wb-tb-nav a:hover{color:#fff;text-decoration:none;}
   .wb-tb-nav a.active{color:#fff;font-weight:600;}
-  .wb-tb-lang{display:flex;gap:6px;align-items:center;padding-left:16px;border-left:1px solid rgba(255,255,255,.22);
-    font-size:14px;}
-  .wb-tb-lang a{color:rgba(255,255,255,.68);text-decoration:none;}
-  .wb-tb-lang a:hover{color:#fff;}
-  .wb-tb-lang a.active{color:#fff;font-weight:600;}
-  .wb-tb-lang span{color:rgba(255,255,255,.32);}
+  /* --- per-post language switch (only rendered when a post has >1 language) --- */
+  .wb-langbar{display:flex;align-items:center;justify-content:flex-end;gap:8px;margin:-2px 0 14px;
+    font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue','PingFang SC','Microsoft YaHei',sans-serif;}
+  .wb-langbar a{font-size:12.5px;line-height:1.6;padding:2px 11px;border-radius:999px;border:1px solid #dcdfe3;
+    color:#6b737b;text-decoration:none;transition:all .12s ease;}
+  .wb-langbar a:hover{border-color:#9aa3ac;color:#1f2328;text-decoration:none;}
+  .wb-langbar a.active{background:#2f3337;border-color:#2f3337;color:#fff;}
   @media(max-width:640px){
     .wb-topbar{padding:6px 14px;}
     .wb-topbar-inner{gap:10px;padding:6px 0;}
     .wb-tb-nav{gap:14px;font-size:14px;}
-    .wb-tb-lang{padding-left:10px;}
   }
 </style>"""
 
 
-def build_bar(lang):
-    en_cls = ' class="active"' if lang == "en" else ""
-    zh_cls = ' class="active"' if lang == "zh" else ""
+def build_bar():
     return (
         '<div class="wb-topbar"><div class="wb-topbar-inner">'
         '<a class="wb-tb-brand" href="../../index.html">Shuai Wang</a>'
@@ -58,17 +61,47 @@ def build_bar(lang):
         '<a href="../../service.html">Service</a>'
         '<a class="active" href="../index.html">Blog</a>'
         '</nav>'
-        f'<div class="wb-tb-lang"><a href="en.html"{en_cls}>EN</a><span>/</span>'
-        f'<a href="zh.html"{zh_cls}>中文</a></div>'
         '</div></div>'
     )
+
+
+BARMARK = re.compile(r"<!--WB-LANGBAR-->.*?<!--/WB-LANGBAR-->\s*", re.S)
+
+
+def build_langbar(langs, current):
+    pills = "".join(
+        f'<a href="{l}.html"{" class=\"active\"" if l == current else ""}>{LANG_LABEL[l]}</a>'
+        for l in langs
+    )
+    return f'<!--WB-LANGBAR--><div class="wb-langbar">{pills}</div><!--/WB-LANGBAR-->\n'
+
+
+def sync_langbars(slug):
+    """Rebuild the in-page language switch for every page of a post.
+
+    Runs after each write, so a post that only has en.html shows no switch at all,
+    and the switch appears (in both pages) as soon as the second language lands."""
+    d = os.path.join(SITE, "blog", "posts", slug)
+    have = [l for l in LANGS if os.path.exists(os.path.join(d, l + ".html"))]
+    for lang in have:
+        p = os.path.join(d, lang + ".html")
+        s = open(p, encoding="utf-8").read()
+        s = BARMARK.sub("", s)
+        if len(have) > 1:
+            m = re.search(r"<h1\b", s)
+            if not m:
+                print(f"  ! {lang}.html: no <h1>, language switch not inserted")
+                continue
+            s = s[: m.start()] + build_langbar(have, lang) + s[m.start():]
+        open(p, "w", encoding="utf-8").write(s)
+    return have
 
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--src", required=True, help="path to the standalone article HTML")
     ap.add_argument("--slug", required=True)
-    ap.add_argument("--lang", required=True, choices=["en", "zh"])
+    ap.add_argument("--lang", required=True, choices=LANGS)
     ap.add_argument("--title", required=True)
     ap.add_argument("--summary", default="")
     ap.add_argument("--date", default=None, help="YYYY-MM-DD, default: today")
@@ -78,6 +111,9 @@ def main():
     date = a.date or datetime.date.today().isoformat()
 
     s = open(os.path.expanduser(a.src), encoding="utf-8").read()
+
+    # 0. make re-runs idempotent
+    s = BARMARK.sub("", s)
 
     # 1. editor comments out
     s = re.sub(r"<!--(?!\[if).*?-->", "", s, flags=re.S)
@@ -96,15 +132,16 @@ def main():
         f'<meta property="og:type" content="article">'
         f'<meta property="og:title" content="{esc_t}">'
         f'<meta property="og:description" content="{esc_d}">'
+        f'<meta property="og:locale" content="{"en_US" if a.lang == "en" else "zh_CN"}">'
         f'<link rel="canonical" href="{url}">'
     ) + s[m.end():]
 
-    # 3. top bar
-    s = s.replace("</head>", BAR_CSS + "</head>", 1)
+    # 3. top bar + styles
+    s = s.replace("</head>", POST_CSS + "</head>", 1)
     m = re.search(r"<body[^>]*>", s)
     if not m:
         sys.exit("could not find <body>: unexpected source layout")
-    s = s[: m.end()] + build_bar(a.lang) + s[m.end():]
+    s = s[: m.end()] + build_bar() + s[m.end():]
     s = re.sub(r"\n{3,}", "\n\n", s)
 
     outdir = os.path.join(SITE, "blog", "posts", a.slug)
@@ -112,6 +149,10 @@ def main():
     out = os.path.join(outdir, a.lang + ".html")
     open(out, "w", encoding="utf-8").write(s)
     print(f"wrote {out} ({len(s)} bytes)")
+
+    have = sync_langbars(a.slug)
+    print(f"languages present: {', '.join(have)}"
+          + ("" if len(have) > 1 else "  (no in-page switch — single language)"))
 
     print("\nNow add this to blog/posts.js (merge with the other language's entry if any):\n")
     print("  {")

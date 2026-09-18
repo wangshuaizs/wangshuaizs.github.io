@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html data-dm-ref="1" data-page-node-id="aXFZvuvL3pSyxVTyFRwxbh" lang="en"><head data-page-node-id="z5z8hQSROmqDumTA9qY2ZJ">
-<meta charset="utf-8" data-page-node-id="Eymjina8B11mriSTRMlQa2"><title>Hetzner Impersonated, 23,000 China Mobile Prefixes Hijacked: Why Didn&#x27;t RPKI Stop It?</title><meta name="description" content="Between June and August 2026 the routing system recorded two large-scale BGP hijacks. Both attack routes passed origin validation, and both still won. A look at prefix length, AS_PATH length, and what origin validation can and cannot prove."><meta property="og:type" content="article"><meta property="og:title" content="Hetzner Impersonated, 23,000 China Mobile Prefixes Hijacked: Why Didn&#x27;t RPKI Stop It?"><meta property="og:description" content="Between June and August 2026 the routing system recorded two large-scale BGP hijacks. Both attack routes passed origin validation, and both still won. A look at prefix length, AS_PATH length, and what origin validation can and cannot prove."><link rel="canonical" href="https://wangshuaizs.github.io/blog/posts/rpki-valid-hijacks-2026/en.html">
+<meta charset="utf-8" data-page-node-id="Eymjina8B11mriSTRMlQa2"><title>Hetzner Impersonated, 23,000 China Mobile Prefixes Hijacked: Why Didn&#x27;t RPKI Stop It?</title><meta name="description" content="Between June and August 2026 the routing system recorded two large-scale BGP hijacks. Both attack routes passed origin validation — and both still won. A close look at prefix length, AS_PATH length, and what origin validation can and cannot prove."><meta property="og:type" content="article"><meta property="og:title" content="Hetzner Impersonated, 23,000 China Mobile Prefixes Hijacked: Why Didn&#x27;t RPKI Stop It?"><meta property="og:description" content="Between June and August 2026 the routing system recorded two large-scale BGP hijacks. Both attack routes passed origin validation — and both still won. A close look at prefix length, AS_PATH length, and what origin validation can and cannot prove."><meta property="og:locale" content="en_US"><link rel="canonical" href="https://wangshuaizs.github.io/blog/posts/rpki-valid-hijacks-2026/en.html">
 <meta content="width=device-width, initial-scale=1.0" data-page-node-id="0vbeLoVPGB9x8tMkPdMZef" name="viewport">
 
 <style id="__dm_no_drag_style__">* { -webkit-user-drag: none !important; }</style><style id="__dm_bindable_badge_style__">[data-sp-bindable="database"]{outline:1px dashed #0088ff;outline-offset:2px;border-radius:4px;}[data-sp-bindable="database"] *{pointer-events:none !important;transition:none !important;animation:none !important;}[data-sp-bindable="database"]{transition:none !important;animation:none !important;}</style><style id="wb-post-bar-css">
+  /* --- site top bar (shared by every post page) --- */
   .wb-topbar{margin:-24px -12px 28px;background:#343a40;padding:0 16px;
     font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue','PingFang SC','Microsoft YaHei',sans-serif;}
   .wb-topbar *{box-sizing:border-box;}
@@ -14,22 +15,23 @@
   .wb-tb-nav a{color:rgba(255,255,255,.68);font-size:15px;text-decoration:none;}
   .wb-tb-nav a:hover{color:#fff;text-decoration:none;}
   .wb-tb-nav a.active{color:#fff;font-weight:600;}
-  .wb-tb-lang{display:flex;gap:6px;align-items:center;padding-left:16px;border-left:1px solid rgba(255,255,255,.22);
-    font-size:14px;}
-  .wb-tb-lang a{color:rgba(255,255,255,.68);text-decoration:none;}
-  .wb-tb-lang a:hover{color:#fff;}
-  .wb-tb-lang a.active{color:#fff;font-weight:600;}
-  .wb-tb-lang span{color:rgba(255,255,255,.32);}
+  /* --- per-post language switch (only rendered when a post has >1 language) --- */
+  .wb-langbar{display:flex;align-items:center;justify-content:flex-end;gap:8px;margin:-2px 0 14px;
+    font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue','PingFang SC','Microsoft YaHei',sans-serif;}
+  .wb-langbar a{font-size:12.5px;line-height:1.6;padding:2px 11px;border-radius:999px;border:1px solid #dcdfe3;
+    color:#6b737b;text-decoration:none;transition:all .12s ease;}
+  .wb-langbar a:hover{border-color:#9aa3ac;color:#1f2328;text-decoration:none;}
+  .wb-langbar a.active{background:#2f3337;border-color:#2f3337;color:#fff;}
   @media(max-width:640px){
     .wb-topbar{padding:6px 14px;}
     .wb-topbar-inner{gap:10px;padding:6px 0;}
     .wb-tb-nav{gap:14px;font-size:14px;}
-    .wb-tb-lang{padding-left:10px;}
   }
 </style></head>
-<body data-page-node-id="87HqVEANRgo9nxcX3jhrwS" style="margin: 0px; padding: 24px 12px; background: rgb(255, 255, 255); position: relative;"><div class="wb-topbar"><div class="wb-topbar-inner"><a class="wb-tb-brand" href="../../index.html">Shuai Wang</a><nav class="wb-tb-nav"><a href="../../index.html">Home</a><a href="../../publications.html">Publications</a><a href="../../service.html">Service</a><a class="active" href="../index.html">Blog</a></nav><div class="wb-tb-lang"><a href="en.html" class="active">EN</a><span>/</span><a href="zh.html">中文</a></div></div></div>
+<body data-page-node-id="87HqVEANRgo9nxcX3jhrwS" style="margin: 0px; padding: 24px 12px; background: rgb(255, 255, 255); position: relative;"><div class="wb-topbar"><div class="wb-topbar-inner"><a class="wb-tb-brand" href="../../index.html">Shuai Wang</a><nav class="wb-tb-nav"><a href="../../index.html">Home</a><a href="../../publications.html">Publications</a><a href="../../service.html">Service</a><a class="active" href="../index.html">Blog</a></nav></div></div>
 <section data-page-node-id="Rg06sX6pCuihMY2ErEhxAC" style="max-width:677px;margin:0 auto;font-size:15px;color:#3f3f3f;line-height:1.8;letter-spacing:0.1px;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue','PingFang SC','Microsoft YaHei',sans-serif;">
 
+<!--WB-LANGBAR--><div class="wb-langbar"><a href="en.html" class="active">English</a><a href="zh.html">中文</a></div><!--/WB-LANGBAR-->
 <h1 data-page-node-id="XoDri6RTfICZvtLSxbHA0X" style="text-align: center; font-size: 20px; font-weight: 600; color: rgb(31, 31, 31); line-height: 1.5; margin: 8px 0px 6px; white-space: pre-wrap; cursor: text;">Hetzner Impersonated, 23,000 China Mobile Prefixes Hijacked: Why Didn't RPKI Stop It?​</h1>
 
 <section data-page-node-id="F8WQj6qF150b4UVy4DB52a" style="background:#f7f8fa;border-radius:8px;padding:16px 18px;margin:0 0 28px;">

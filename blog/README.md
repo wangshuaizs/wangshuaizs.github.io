@@ -30,26 +30,34 @@ blog/
    It writes `blog/posts/<slug>/<lang>.html`, injects the site top bar, strips editor
    comments, and fixes up `<title>` / `og:` / canonical. Run again with `--lang zh` for the
    Chinese version. (Doing it by hand is fine too: copy the top bar +
-   `<style id="wb-post-bar-css">` block from an existing post and fix the EN · 中文 links.)
+   `<style id="wb-post-bar-css">` block from an existing post.)
 
 2. Each post file is self-contained — images embedded as base64 `data:` URIs — so it can be
    opened directly in a browser and needs no asset folder.
 
-3. Add one entry to `blog/posts.js` (the script prints a ready-to-paste snippet):
+3. **Language switch is per post.** The site top bar never shows a language toggle; instead
+   each page gets a small `English / 中文` switch of its own, right above the title. Every run
+   of `make_post.py` resyncs that switch across all pages of the post, so:
+   - a post with only `en.html` (or only `zh.html`) shows **no switch at all**;
+   - as soon as the second language is generated, the switch appears in both pages
+     automatically — no manual editing, no ordering requirement.
 
-```js
-{
-  slug: "rpki-rov-deployment-2026",
-  date: "2026-10-01",
-  topics: ["RPKI", "ROV"],           // free-form; filter chips build themselves
-  en: { title: "…", summary: "…" },
-  zh: { title: "…", summary: "…" }   // omit en/zh entirely if that language is absent
-}
-```
+4. Add one entry to `blog/posts.js` (the script prints a ready-to-paste snippet). Include only
+   the languages that exist:
 
-The list sorts by `date` descending. Topic chips and their counts, the search box, and the
-shareable `?topic=…` deep links are all generated from the registry — nothing else to update.
-If a post has only one language, use that language's title as the card title.
+   ```js
+   {
+     slug: "rpki-rov-deployment-2026",
+     date: "2026-10-01",
+     topics: ["RPKI", "ROV"],           // free-form; filter chips build themselves
+     en: { title: "…", summary: "…" },
+     zh: { title: "…", summary: "…" }   // omit en/zh entirely if that language is absent
+   }
+   ```
+
+   The list sorts by `date` descending. Topic chips and their counts, the search box, and the
+   shareable `?topic=…` deep links are all generated from the registry — nothing else to
+   update. If a post has only one language, that language's title becomes the card title.
 
 ## Page-level wiring
 
