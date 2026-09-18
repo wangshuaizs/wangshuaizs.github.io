@@ -27,10 +27,18 @@ blog/
        --summary "One or two sentence summary."
    ```
 
-   It writes `blog/posts/<slug>/<lang>.html`, injects the site top bar, strips editor
+   It writes `blog/posts/<slug>/<lang>.html`, injects the site navbar, strips editor
    comments, and fixes up `<title>` / `og:` / canonical. Run again with `--lang zh` for the
-   Chinese version. (Doing it by hand is fine too: copy the top bar +
-   `<style id="wb-post-bar-css">` block from an existing post.)
+   Chinese version. (Doing it by hand is fine too: copy the `<nav>` + the
+   `<style id="wb-post-css">` block from an existing post. Remember a post sits three
+   levels below the site root, so site links need `../../../` and the blog index needs
+   `../../index.html`.)
+
+   The navbar is the *same Bootstrap markup* the hand-written pages use, so brand position,
+   font size and the mobile hamburger match `index.html` exactly; `body.wb-post` just adds
+   80px of top padding so the `fixed-top` bar doesn't cover the article title. Bootstrap's CSS
+   does not touch the article body — every block in these articles carries its own inline
+   styles (verified: 78/78 elements render at identical geometry with and without Bootstrap).
 
 2. Each post file is self-contained — images embedded as base64 `data:` URIs — so it can be
    opened directly in a browser and needs no asset folder.

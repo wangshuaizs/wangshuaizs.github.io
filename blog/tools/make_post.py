@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Wrap a standalone article HTML into a blog post page with the site top bar.
+"""Wrap a standalone article HTML into a blog post page with the site navbar.
 
 Usage:
   python3 blog/tools/make_post.py \
@@ -11,9 +11,9 @@ Usage:
       --summary "One or two sentence summary." \
       [--date 2026-10-01]
 
-Writes blog/posts/<slug>/<lang>.html and prints the snippet to paste into blog/posts.js.
-Run it once per language; the second run also syncs the language switch inside every
-page of that post, so posts with only one language simply have no switch.
+Writes blog/posts/<slug>/<lang>.html, then resyncs the in-page language switch across
+every page of that post. Run it once per language; a post with a single language simply
+has no switch.
 """
 import argparse, html, os, re, sys
 
@@ -24,44 +24,45 @@ SITE = os.path.dirname(BLOG)          # repo root
 LANGS = ["en", "zh"]
 LANG_LABEL = {"en": "English", "zh": "中文"}
 
-POST_CSS = """<style id="wb-post-bar-css">
-  /* --- site top bar (shared by every post page) --- */
-  .wb-topbar{margin:-24px -12px 28px;background:#343a40;padding:0 16px;
-    font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue','PingFang SC','Microsoft YaHei',sans-serif;}
-  .wb-topbar *{box-sizing:border-box;}
-  .wb-topbar-inner{max-width:960px;margin:0 auto;display:flex;align-items:center;gap:18px;min-height:56px;flex-wrap:wrap;}
-  .wb-tb-brand{color:#fff;font-weight:600;font-size:17px;text-decoration:none;letter-spacing:.2px;}
-  .wb-tb-brand:hover{color:#fff;text-decoration:none;}
-  .wb-tb-nav{display:flex;gap:18px;margin-left:auto;flex-wrap:wrap;}
-  .wb-tb-nav a{color:rgba(255,255,255,.68);font-size:15px;text-decoration:none;}
-  .wb-tb-nav a:hover{color:#fff;text-decoration:none;}
-  .wb-tb-nav a.active{color:#fff;font-weight:600;}
-  /* --- per-post language switch (only rendered when a post has >1 language) --- */
+BOOTSTRAP_CSS = "https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+JQUERY = "https://code.jquery.com/jquery-3.5.1.slim.min.js"
+BOOTSTRAP_JS = "https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"
+
+# A post lives at blog/posts/<slug>/<lang>.html, so the site root is three levels up
+# and the blog index is two levels up.
+UP_ROOT = "../../../"
+UP_BLOG = "../../"
+
+POST_CSS = """<style id="wb-post-css">
+  /* the site navbar is fixed-top, so reserve room for it (56px) on top of the
+     article's own 24px top padding */
+  body.wb-post{padding-top:80px !important;}
+  /* per-post language switch — only present when the post has >1 language */
   .wb-langbar{display:flex;align-items:center;justify-content:flex-end;gap:8px;margin:-2px 0 14px;
     font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue','PingFang SC','Microsoft YaHei',sans-serif;}
   .wb-langbar a{font-size:12.5px;line-height:1.6;padding:2px 11px;border-radius:999px;border:1px solid #dcdfe3;
     color:#6b737b;text-decoration:none;transition:all .12s ease;}
   .wb-langbar a:hover{border-color:#9aa3ac;color:#1f2328;text-decoration:none;}
   .wb-langbar a.active{background:#2f3337;border-color:#2f3337;color:#fff;}
-  @media(max-width:640px){
-    .wb-topbar{padding:6px 14px;}
-    .wb-topbar-inner{gap:10px;padding:6px 0;}
-    .wb-tb-nav{gap:14px;font-size:14px;}
-  }
 </style>"""
 
 
-def build_bar():
+def build_nav():
+    """Byte-for-byte the same navbar the hand-written pages use, with paths adjusted."""
     return (
-        '<div class="wb-topbar"><div class="wb-topbar-inner">'
-        '<a class="wb-tb-brand" href="../../index.html">Shuai Wang</a>'
-        '<nav class="wb-tb-nav">'
-        '<a href="../../index.html">Home</a>'
-        '<a href="../../publications.html">Publications</a>'
-        '<a href="../../service.html">Service</a>'
-        '<a class="active" href="../index.html">Blog</a>'
-        '</nav>'
-        '</div></div>'
+        '<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">'
+        f'<a class="navbar-brand" href="{UP_ROOT}index.html">Shuai Wang</a>'
+        '<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"'
+        ' aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">'
+        '<span class="navbar-toggler-icon"></span>'
+        '</button>'
+        '<div class="collapse navbar-collapse" id="navbarNav">'
+        '<ul class="navbar-nav ml-auto">'
+        f'<li class="nav-item"><a class="nav-link" href="{UP_ROOT}index.html">Home</a></li>'
+        f'<li class="nav-item"><a class="nav-link" href="{UP_ROOT}publications.html">Publications</a></li>'
+        f'<li class="nav-item"><a class="nav-link" href="{UP_ROOT}service.html">Service</a></li>'
+        f'<li class="nav-item active"><a class="nav-link" href="{UP_BLOG}index.html">Blog</a></li>'
+        '</ul></div></nav>'
     )
 
 
@@ -134,14 +135,24 @@ def main():
         f'<meta property="og:description" content="{esc_d}">'
         f'<meta property="og:locale" content="{"en_US" if a.lang == "en" else "zh_CN"}">'
         f'<link rel="canonical" href="{url}">'
+        f'<link href="{BOOTSTRAP_CSS}" rel="stylesheet">'
     ) + s[m.end():]
 
-    # 3. top bar + styles
+    # 3. site navbar + styles; the article body itself is left untouched
     s = s.replace("</head>", POST_CSS + "</head>", 1)
     m = re.search(r"<body[^>]*>", s)
     if not m:
         sys.exit("could not find <body>: unexpected source layout")
-    s = s[: m.end()] + build_bar() + s[m.end():]
+    body_tag = m.group(0)
+    if "class=" in body_tag:
+        body_tag = re.sub(r'class="([^"]*)"', r'class="\1 wb-post"', body_tag, count=1)
+    else:
+        body_tag = body_tag[:-1] + ' class="wb-post">'
+    s = s[: m.start()] + body_tag + build_nav() + s[m.end():]
+
+    # 4. jQuery + Bootstrap so the collapsed mobile menu behaves like the other pages
+    s = s.replace("</body>", f'<script src="{JQUERY}"></script>\n'
+                             f'<script src="{BOOTSTRAP_JS}"></script>\n</body>', 1)
     s = re.sub(r"\n{3,}", "\n\n", s)
 
     outdir = os.path.join(SITE, "blog", "posts", a.slug)
