@@ -21,6 +21,9 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 BLOG = os.path.dirname(HERE)          # .../blog
 SITE = os.path.dirname(BLOG)          # repo root
 
+sys.path.insert(0, HERE)
+from add_analytics import MARK as ANALYTICS_MARK, load_code, snippet as analytics_snippet  # noqa: E402
+
 LANGS = ["en", "zh"]
 LANG_LABEL = {"en": "English", "zh": "中文"}
 
@@ -154,9 +157,14 @@ def main():
         body_tag = body_tag[:-1] + ' class="wb-post">'
     s = s[: m.start()] + body_tag + build_nav() + s[m.end():]
 
-    # 4. jQuery + Bootstrap so the collapsed mobile menu behaves like the other pages
-    s = s.replace("</body>", f'<script src="{JQUERY}"></script>\n'
-                             f'<script src="{BOOTSTRAP_JS}"></script>\n</body>', 1)
+    # 4. jQuery + Bootstrap so the collapsed mobile menu behaves like the other pages,
+    #    then the page-view snippet (a no-op until blog/analytics.json has a code)
+    s = ANALYTICS_MARK.sub("", s)
+    tail = f'<script src="{JQUERY}"></script>\n<script src="{BOOTSTRAP_JS}"></script>\n'
+    gc = load_code()
+    if gc:
+        tail += analytics_snippet(gc)
+    s = s.replace("</body>", tail + "</body>", 1)
     s = re.sub(r"\n{3,}", "\n\n", s)
 
     outdir = os.path.join(SITE, "blog", "posts", a.slug)

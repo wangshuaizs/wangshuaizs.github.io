@@ -72,6 +72,30 @@ blog/
 - New posts should also be added to `../sitemap.xml`.
 - The `Blog` item is in the navbar of `index.html`, `publications.html`, `service.html`.
 
+## Visitor counting
+
+Downloads of nothing, displayed to nobody: the site uses **GoatCounter**, which draws
+nothing on the page — no badge, no counter, no map — and keeps the numbers behind a login,
+so only the owner sees them. No cookies, no personal data, so no consent banner.
+
+The site code lives in `blog/analytics.json`:
+
+```json
+{ "goatcounter": "yourcode" }     // -> https://yourcode.goatcounter.com/count
+```
+
+```bash
+python3 blog/tools/add_analytics.py --code yourcode   # set it and apply everywhere
+python3 blog/tools/add_analytics.py --status          # what is on each page right now
+python3 blog/tools/add_analytics.py --remove          # strip it everywhere
+```
+
+It covers the three hand-written pages, the blog index, and every
+`blog/posts/<slug>/<lang>.html`; `make_post.py` reads the same file, so posts generated
+later pick it up automatically. The snippet is wrapped in `<!--WB-ANALYTICS-->` markers, so
+re-runs replace it rather than stacking copies. While the code is empty the script is a
+no-op and the pages carry nothing.
+
 ## Notes
 
 - Do not rename `posts.js` or `index.html` unless you update the relative paths.
