@@ -12,6 +12,12 @@
       flex-direction: column;
     }
 
+    /* 滚动条常驻槽位：本机开启「始终显示滚动条」时，长页面有滚动条、短页面没有，
+       fixed-top 的导航条会因此左右平移 15px。预留槽位让所有页面宽度一致。 */
+    html {
+      scrollbar-gutter: stable;
+    }
+
     #content {
       flex: 1;
     }

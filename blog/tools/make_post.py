@@ -34,6 +34,10 @@ UP_ROOT = "../../../"
 UP_BLOG = "../../"
 
 POST_CSS = """<style id="wb-post-css">
+  /* reserve the scrollbar gutter so the fixed-top navbar (and the article's own
+     centred column) sits at exactly the same x on every page of the site,
+     whether or not that page happens to be tall enough to scroll */
+  html{scrollbar-gutter:stable;}
   /* the site navbar is fixed-top, so reserve room for it (56px) on top of the
      article's own 24px top padding */
   body.wb-post{padding-top:80px !important;}

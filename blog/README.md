@@ -76,3 +76,9 @@ blog/
 
 - Do not rename `posts.js` or `index.html` unless you update the relative paths.
 - Keep article images embedded (base64) so a post stays a single portable file.
+- Every page on the site sets `html { scrollbar-gutter: stable; }`. With the OS set to
+  *always show scroll bars*, a tall page gets a 15px scrollbar and a short page does not —
+  and a `fixed-top` navbar never sits under the scrollbar, so the brand and the right-hand
+  menu would jump 15px between pages. Reserving the gutter unconditionally pins them to the
+  same x everywhere. `make_post.py` injects this into new posts automatically; if you build a
+  page by hand, copy that rule too.
