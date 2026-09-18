@@ -34,4 +34,26 @@
  <changefreq>weekly</changefreq>
 </url>
 
+
+<url>
+ <loc>https://wangshuaizs.github.io/blog/index.html</loc>
+ <priority>0.6</priority>
+ <lastmod>2026-09-18</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://wangshuaizs.github.io/blog/posts/rpki-valid-hijacks-2026/en.html</loc>
+ <priority>0.7</priority>
+ <lastmod>2026-09-18</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://wangshuaizs.github.io/blog/posts/rpki-valid-hijacks-2026/zh.html</loc>
+ <priority>0.7</priority>
+ <lastmod>2026-09-18</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
 </urlset>
